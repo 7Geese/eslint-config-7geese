@@ -1,0 +1,60 @@
+{
+  "name": "eslint-config-7geese",
+  "version": "0.0.1",
+  "description": "An eslint config to enforce JavaScript coding style at 7Geese.",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint --config .eslintrc ./rules/**,./index.js",
+    "find-rules": "eslint-find-rules --unused",
+    "print-config": "eslint --print-config index.js > new-config.json"
+  },
+  "engines": {
+    "node": ">= 4"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.2",
+    "eslint": "^4.18.2",
+    "eslint-find-rules": "^3.2.2",
+    "eslint-plugin-7g": "^1.0.0",
+    "eslint-plugin-compat": "^2.2.0",
+    "eslint-plugin-filenames": "^1.2.0",
+    "eslint-plugin-import": "^2.9.0",
+    "eslint-plugin-jest": "^21.15.0",
+    "eslint-plugin-react": "^7.7.0"
+  },
+  "peerDependencies": {
+    "babel-eslint": ">= 8.2.0",
+    "eslint": ">= 4.18.0",
+    "eslint-plugin-7g": ">= 1.0.0",
+    "eslint-plugin-compat": ">= 2.2.0",
+    "eslint-plugin-filenames": ">= 1.2.0",
+    "eslint-plugin-import": ">= 2.9.0",
+    "eslint-plugin-jest": ">= 21.15.0",
+    "eslint-plugin-react": ">= 7.7.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/7Geese/eslint-config-7geese.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslint-config",
+    "lint",
+    "7geese",
+    "javascript",
+    "linter-config",
+    "linting-rules",
+    "eslintconfig",
+    "code checker",
+    "code linter",
+    "code standards",
+    "code style"
+  ],
+  "author": "7Geese",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/7Geese/eslint-config-7geese/issues"
+  },
+  "homepage": "https://github.com/7Geese/eslint-config-7geese#readme",
+  "private": false
+}

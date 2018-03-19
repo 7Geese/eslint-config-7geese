@@ -1,0 +1,28 @@
+{
+    "extends": [
+        "./rules/eslint/best-practices/on.js",
+        "./rules/eslint/errors/on.js",
+        "./rules/eslint/es6/off.js",
+        "./rules/eslint/strict/off.js",
+        "./rules/eslint/style/on.js",
+        "./rules/eslint/variables/on.js",
+        "./rules/eslint/node/on.js"
+    ],
+    "parserOptions": {
+        "ecmaVersion": 5,
+        "sourceType": "script",
+        "ecmaFeatures": {}
+    },
+    "env": {
+        "amd": true,
+        "node": true
+    },
+    "globals": {
+        "module": false,
+        "process": false
+    },
+    "rules": {
+        "no-magic-numbers": 0,
+        "max-len": 0,
+    }
+}
