@@ -42,21 +42,6 @@ module.exports = {
         'import/no-deprecated': 0,
         // Forbid the use of extraneous packages
         'import/no-extraneous-dependencies': 0,
-        // 'import/no-extraneous-dependencies': ['error', {
-        //     devDependencies: [
-        //       'test/**', // tape, common npm pattern
-        //       'tests/**', // also common npm pattern
-        //       'spec/**', // mocha, rspec-like pattern
-        //       '**/__tests__/**', // jest pattern
-        //       'test.{js,jsx}', // repos with a single test file
-        //       'test-*.{js,jsx}', // repos with multiple top-level test files
-        //       '**/*.{test,spec}.{js,jsx}', // tests where the extension denotes that it is a test
-        //       '**/jest.config.js', // jest config
-        //       '**/webpack.config.js', // webpack config
-        //       '**/webpack.config.*.js', // webpack config
-        //     ],
-        //     optionalDependencies: false,
-        //   }],
         // Forbid mutable exports
         // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-mutable-exports.md
         'import/no-mutable-exports': 2,
@@ -70,12 +55,22 @@ module.exports = {
         // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-nodejs-modules.md
         'import/no-nodejs-modules': 0,
         // disallow non-import statements appearing before import statements
-        // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/first.md
-        'import/first': [2, 'absolute-first'],
-        // disallow non-import statements appearing before import statements
         // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/imports-first.md
         // deprecated: use `import/first`
         'import/imports-first': 0,
+        // disallow non-import statements appearing before import statements
+        // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/first.md
+        'import/first': 0,
+        // Enforce a convention in module import order
+        // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/order.md
+        'import/order': [2, {
+            'groups': [
+                'builtin',
+                'external',
+                ['internal', 'parent', 'sibling', 'index'],
+            ],
+            'newlines-between': 'never',
+        }],
         // Report repeated import of the same module in multiple places
         // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-duplicates.md
         'import/no-duplicates': 2,
@@ -87,12 +82,6 @@ module.exports = {
         'import/extensions': ['error', 'ignorePackages', {
             js: 'ignorePackages',
             jsx: 'ignorePackages',
-        }],
-        // Enforce a convention in module import order
-        // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/order.md
-        'import/order': ['off', {
-            groups: ['builtin', 'external', 'internal', 'index', 'sibling', 'parent'],
-            'newlines-between': 'never',
         }],
         // Require a newline after the last import/require in a group
         // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/newline-after-import.md
