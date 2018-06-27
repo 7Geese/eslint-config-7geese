@@ -8,20 +8,20 @@ _Coming soon_
 You can read more about our coding style [over here](https://github.com/7Geese/eslint-config-7geese/blob/master/docs/styleguide.md).
 -->
 
-Inspired heavily by [AirBnB](https://github.com/airbnb/javascript), [Walmart](https://github.com/walmartlabs/eslint-config-walmart) and [Formidable](https://github.com/FormidableLabs/eslint-config-formidable).
+Inspired heavily by [AirBnB](https://github.com/airbnb/javascript), [Walmart](https://github.com/walmartlabs/eslint-config-walmart) and [Formidable](https://github.com/FormidableLabs/eslint-config-formidable) configurations.
 
 
 ### Installation
 
 Install `eslint`, `eslint-config-7geese`, and all the required peerDependencies for the config with one of the following commands:
 
-If using npm 5+, use this shortcut
+If using npm 5+, use this shortcut:
 
 ```
 npx install-peerdeps --dev eslint-config-7geese
 ```
 
-If using npm < 5, Linux/OSX users can run
+If using yarn/npm < 5, Linux/macOS users can run:
 
 ```
 (
@@ -33,9 +33,11 @@ If using npm < 5, Linux/OSX users can run
 Which produces and runs a command like:
 
 ```
-  npm install --save-dev eslint-config-7geese eslint@^#.#.# eslint-plugin-import@^#.#.# eslint-plugin-filenames@^#.#.# eslint-plugin-react@^#.#.#
+  npm install --save-dev babel-eslint@^#.#.# eslint@^#.#.# eslint-plugin-7g@^#.#.# eslint-plugin-compat@^#.#.# eslint-plugin-filenames@^#.#.# eslint-plugin-import@^#.#.# eslint-plugin-jest@^#.#.# eslint-plugin-promise@^#.#.# eslint-plugin-react@^#.#.#
 
 ```
+
+npm install --save-dev babel-eslint eslint eslint-plugin-7g eslint-plugin-compat eslint-plugin-filenames eslint-plugin-import eslint-plugin-jest eslint-plugin-promise eslint-plugin-react
 
 
 ### Usage
@@ -47,3 +49,17 @@ Add this config under the `"extends"` part of your `.eslintrc` file:
     "extends": "7geese"
 }
 ```
+
+If you want to turn on/off specific rulesets, you can do so like this:
+
+```
+{
+    "extends": [
+        "7geese",
+        "7geese/rules/eslint/style/off",
+        "7geese/rules/react/off",
+    ]
+}
+```
+
+For more details about how shareable configs work, [see the ESLint documentation](https://eslint.org/docs/developer-guide/shareable-configs).

@@ -14,6 +14,7 @@ module.exports = {
         './rules/filenames/on.js',
         './rules/import/on.js',
         './rules/jest/on.js',
+        './rules/promise/on.js',
     ].map(require.resolve),
     parser: 'babel-eslint',
     parserOptions: {
