@@ -55,6 +55,7 @@ module.exports = {
         // Enforce propTypes declarations alphabetical sorting
         'react/sort-prop-types': ['error', {
             callbacksLast: true,
+            sortShapeProp: true,
         }],
 
         // ========================================================================

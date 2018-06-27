@@ -8,12 +8,11 @@ module.exports = {
         // treat var statements as if they were block scoped
         'block-scoped-var': 2,
         // specify the maximum cyclomatic complexity allowed in a program
+        // https://eslint.org/docs/3.0.0/rules/complexity#limit-cyclomatic-complexity-complexity
         complexity: [2, 11],
         // enforce that class methods use "this"
         // http://eslint.org/docs/rules/class-methods-use-this
-        'class-methods-use-this': [2, {
-            exceptMethods: [],
-        }],
+        'class-methods-use-this': 0,
         // require return statements to either always or never specify values
         'consistent-return': 2,
         // specify curly brace conventions for multi-line control statements
@@ -122,13 +121,6 @@ module.exports = {
             props: true,
             ignorePropertyModificationsFor: [
                 'acc', // for reduce accumulators
-                'e', // for e.returnvalue
-                'ctx', // for Koa routing
-                'req', // for Express requests
-                'request', // for Express requests
-                'res', // for Express responses
-                'response', // for Express responses
-                '$scope', // for Angular 1 scopes
             ],
         }],
         //  https://eslint.org/docs/4.0.0/rules/no-useless-return

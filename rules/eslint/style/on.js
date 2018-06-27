@@ -10,8 +10,10 @@ module.exports = {
         // https://eslint.org/docs/rules/array-bracket-spacing
         'array-bracket-spacing': [0, 'never'],
         // disallow or enforce spaces inside of single line blocks
+        // https://eslint.org/docs/rules/block-spacing
         'block-spacing': [2, 'always'],
         // enforce one true brace style
+        // https://eslint.org/docs/rules/brace-style
         'brace-style': [2, '1tbs', { allowSingleLine: true }],
         // require camel case names
         camelcase: [2, { properties: 'never' }],
@@ -63,7 +65,7 @@ module.exports = {
         'func-style': [2, 'expression'],
         // enforce consistent line breaks inside function parentheses
         // https://eslint.org/docs/rules/function-paren-newline
-        'function-paren-newline': [2, 'multiline'],
+        'function-paren-newline': 0,
         // disallow certain identifiers to prevent them being used
         // https://eslint.org/docs/rules/id-blacklist
         'id-blacklist': 0,
@@ -103,6 +105,7 @@ module.exports = {
         // https://eslint.org/docs/rules/jsx-quotes
         'jsx-quotes': [2, 'prefer-double'],
         // enforces spacing between keys and values in object literal properties
+        // https://eslint.org/docs/rules/key-spacing
         'key-spacing': [2, { beforeColon: false, afterColon: true }],
         // require a space before & after certain keywords
         'keyword-spacing': [2, {
@@ -272,7 +275,7 @@ module.exports = {
         // https://eslint.org/docs/rules/nonblock-statement-body-position
         'nonblock-statement-body-position': 'off',
         // require or disallow padding inside curly braces
-        'object-curly-spacing': [2, 'always'],
+        'object-curly-spacing': [2, 'never'],
         // enforce placing object properties on separate lines or all on same line
         // https://eslint.org/docs/rules/object-curly-newline
         'object-curly-newline': [2, {
@@ -284,7 +287,7 @@ module.exports = {
         'object-property-newline': [2, {
             allowAllPropertiesOnSameLine: true,
         }],
-        // allow just one var statement per function
+        // allow just one var statement per functionprefer-destructuring
         'one-var': [2, 'never'],
         // require or disallow an newline around variable declarations
         'one-var-declaration-per-line': [2, 'always'],
