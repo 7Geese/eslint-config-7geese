@@ -111,5 +111,74 @@ module.exports = {
         'react/jsx-uses-vars': 'error',
         // Prevent missing parentheses around multilines JSX
         'react/jsx-wrap-multilines': 'error',
+        //  https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/forbid-elements.md
+        'react/forbid-elements': 'off',
+        //  https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-curly-brace-presence.md
+        'react/jsx-curly-brace-presence': ['error', 'never'],
+        //  https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-max-depth.md
+        'react/jsx-max-depth': ['error', { 'max': 5 }],
+        //  https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-one-expression-per-line.md
+        'react/jsx-one-expression-per-line': 'error',
+        //  https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-props-no-multi-spaces.md
+        'react/jsx-props-no-multi-spaces': 'error',
+        //  https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-sort-default-props.md
+        'react/jsx-sort-default-props': 'error',
+        //  https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-tag-spacing.md
+        'react/jsx-tag-spacing': ['error', {
+            'closingSlash': 'never',
+            'beforeSelfClosing': 'always',
+            'afterOpening': 'never',
+            'beforeClosing': 'never',
+        }],
+        //  https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-access-state-in-setstate.md
+        'react/no-access-state-in-setstate': 'error',
+        //  https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-array-index-key.md
+        'react/no-array-index-key': 'error',
+        //  https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-children-prop.md
+        'react/no-children-prop': 'error',
+        //  https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-danger-with-children.md
+        'react/no-danger-with-children': 'error',
+        //  https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-redundant-should-component-update.md
+        'react/no-redundant-should-component-update': 'error',
+        //  https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-this-in-sfc.md
+        'react/no-this-in-sfc': 'error',
+        //  https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-typos.md
+        'react/no-typos': 'error',
+        //  https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-unescaped-entities.md
+        'react/no-unescaped-entities': 'error',
+        //  https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-unsafe.md
+        'react/no-unsafe': 'off',
+        //  https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-unused-prop-types.md
+        'react/no-unused-prop-types': 'error',
+        //  https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-unused-state.md
+        'react/no-unused-state': 'error',
+        //  https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-will-update-set-state.md
+        'react/no-will-update-set-state': 'error',
+        //  https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/require-default-props.md
+        'react/require-default-props': 'error',
+        //  https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/style-prop-object.md
+        'react/style-prop-object': 'error',
+        //  https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/void-dom-elements-no-children.md
+        'react/void-dom-elements-no-children': 'error',
+        //  https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/boolean-prop-naming.md
+        'react/boolean-prop-naming': ['error', { message: 'Yo dawg! Please name your boolean prop ({{propName}}) to start with "is" or "has", like "isBruceLoose"' }],
+        //  https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/button-has-type.md
+        'react/button-has-type': 'error',
+        //  https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/default-props-match-prop-types.md
+        'react/default-props-match-prop-types': 'error',
+        //  https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/destructuring-assignment.md
+        'react/destructuring-assignment': 'warn',
+        //  https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/forbid-component-props.md
+        'react/forbid-component-props': 'off',
+        //  https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/forbid-dom-props.md
+        'react/forbid-dom-props': 'off',
+        //  https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/forbid-elements.md
+        'react/forbid-dom-props': 'off',
+        //  https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/forbid-foreign-prop-types.md
+        'react/forbid-foreign-prop-types': 'error',
+        //  https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-child-element-spacing.md
+        'react/jsx-child-element-spacing': 'error',
+        //  https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-closing-tag-location.md
+        'react/jsx-closing-tag-location': 'error',
     },
 };

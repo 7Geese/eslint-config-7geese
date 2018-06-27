@@ -191,5 +191,10 @@ module.exports = {
         'wrap-iife': [2, 'outside', { functionPrototypeMethods: false }],
         // require or disallow Yoda conditions
         yoda: [2, 'never'],
+
+        //  https://github.com/eslint/eslint/blob/master/docs/rules/max-classes-per-file.md
+        'max-classes-per-file': 2,
+        //  https://github.com/eslint/eslint/blob/master/docs/rules/max-lines-per-function.md
+        'max-lines-per-function': [2, { 'max': 20 }],
     },
 };

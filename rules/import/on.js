@@ -146,5 +146,11 @@ module.exports = {
         // Ensures that there are no useless path segments
         // https://github.com/benmosher/eslint-plugin-import/issues/1032
         'import/no-useless-path-segments': 'error',
+        //  https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/dynamic-import-chunkname.md
+        'import/dynamic-import-chunkname': 'error',
+        //  https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-cycle.md
+        'import/no-cycle': 'error',
+        //  https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-relative-parent-imports.md
+        'import/no-relative-parent-imports': 'error',
     },
 };

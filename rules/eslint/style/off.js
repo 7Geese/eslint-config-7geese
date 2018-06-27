@@ -117,7 +117,9 @@ module.exports = {
         // enforce padding within blocks
         'padded-blocks': 0,
         // https://eslint.org/docs/rules/prefer-numeric-literals
-        'prefer-numeric-literals': 'off',
+        'prefer-numeric-literals': 0,
+        //  Prefer object spread in Object.assign
+        'prefer-object-spread': 0,
         // require quotes around object literal property names
         'quote-props': 0,
         // specify whether double or single quotes should be used

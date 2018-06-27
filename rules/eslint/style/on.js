@@ -275,7 +275,7 @@ module.exports = {
         // https://eslint.org/docs/rules/nonblock-statement-body-position
         'nonblock-statement-body-position': 'off',
         // require or disallow padding inside curly braces
-        'object-curly-spacing': [2, 'never'],
+        'object-curly-spacing': 0,
         // enforce placing object properties on separate lines or all on same line
         // https://eslint.org/docs/rules/object-curly-newline
         'object-curly-newline': [2, {
@@ -304,6 +304,8 @@ module.exports = {
         }],
         // https://eslint.org/docs/rules/prefer-numeric-literals
         'prefer-numeric-literals': 'off',
+        //  https://github.com/eslint/eslint/blob/master/docs/rules/prefer-object-spread.md
+        'prefer-object-spread': 1,
         // Require or disallow padding lines between statements
         // https://eslint.org/docs/rules/padding-line-between-statements
         'padding-line-between-statements': 'off',

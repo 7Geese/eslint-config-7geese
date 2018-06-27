@@ -13,6 +13,8 @@ module.exports = {
         'jest/no-hooks': 'off',
         //  https://github.com/jest-community/eslint-plugin-jest/blob/HEAD/docs/rules/no-identical-title.md
         'jest/no-identical-title': 'off',
+        //  https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/no-jasmine-globals.md
+        'jest/no-jasmine-globals': 'off',
         //  https://github.com/jest-community/eslint-plugin-jest/blob/HEAD/docs/rules/no-jest-import.md
         'jest/no-jest-import': 'off',
         //  Allow snapshots to get 'yuge, we don't include them in .gitattribute anyway

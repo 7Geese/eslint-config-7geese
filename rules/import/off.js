@@ -42,5 +42,11 @@ module.exports = {
         'import/newline-after-import': 'off',
         // Prefer a default export if module exports a single name
         'import/prefer-default-export': 'off',
+        //  https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/dynamic-import-chunkname.md
+        'import/dynamic-import-chunkname': 'off',
+        //  https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-cycle.md
+        'import/no-cycle': 'off',
+        //  https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-relative-parent-imports.md
+        'import/no-relative-parent-imports': 'off',
     },
 };
