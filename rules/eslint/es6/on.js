@@ -2,15 +2,6 @@ module.exports = {
     env: {
         es6: true,
     },
-    parserOptions: {
-        ecmaVersion: 6,
-        sourceType: 'module',
-        ecmaFeatures: {
-            generators: false,
-            objectLiteralDuplicateProperties: false,
-            experimentalObjectRestSpread: true,
-        },
-    },
     rules: {
         // require braces in arrow function body
         // https://eslint.org/docs/rules/arrow-body-style

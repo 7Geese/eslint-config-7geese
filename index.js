@@ -17,14 +17,13 @@ module.exports = {
     ].map(require.resolve),
     parser: 'babel-eslint',
     parserOptions: {
-        ecmaVersion: 2017,
+        ecmaVersion: 2018,
         sourceType: 'module',
         ecmaFeatures: {
             impliedStrict: true,
             generators: false,
             jsx: true,
             objectLiteralDuplicateProperties: false,
-            experimentalObjectRestSpread: true,
         },
     },
     env: {
