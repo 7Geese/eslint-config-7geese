@@ -179,7 +179,7 @@ module.exports = {
         // http://eslint.org/docs/rules/no-void
         'no-void': 2,
         // disallow usage of configurable warning terms in comments: e.g. todo
-        'no-warning-comments': 1,
+        'no-warning-comments': 0,
         // disallow use of the with statement
         'no-with': 2,
         // require use of the second argument for parseInt()
@@ -195,6 +195,6 @@ module.exports = {
         //  https://github.com/eslint/eslint/blob/master/docs/rules/max-classes-per-file.md
         'max-classes-per-file': 2,
         //  https://github.com/eslint/eslint/blob/master/docs/rules/max-lines-per-function.md
-        'max-lines-per-function': [2, { 'max': 20 }],
+        'max-lines-per-function': 0,
     },
 };

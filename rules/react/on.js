@@ -116,9 +116,9 @@ module.exports = {
         //  https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-curly-brace-presence.md
         'react/jsx-curly-brace-presence': ['error', 'never'],
         //  https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-max-depth.md
-        'react/jsx-max-depth': ['error', { 'max': 5 }],
+        'react/jsx-max-depth': 'off',
         //  https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-one-expression-per-line.md
-        'react/jsx-one-expression-per-line': 'error',
+        'react/jsx-one-expression-per-line': 'off',
         //  https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-props-no-multi-spaces.md
         'react/jsx-props-no-multi-spaces': 'error',
         //  https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-sort-default-props.md
@@ -167,7 +167,7 @@ module.exports = {
         //  https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/default-props-match-prop-types.md
         'react/default-props-match-prop-types': 'error',
         //  https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/destructuring-assignment.md
-        'react/destructuring-assignment': 'warn',
+        'react/destructuring-assignment': 'error',
         //  https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/forbid-component-props.md
         'react/forbid-component-props': 'off',
         //  https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/forbid-dom-props.md
@@ -178,7 +178,8 @@ module.exports = {
         'react/forbid-foreign-prop-types': 'error',
         //  https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-child-element-spacing.md
         'react/jsx-child-element-spacing': 'error',
-        //  https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-closing-tag-location.md
+        //  Suggest using inline snapshots
+        //  https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/prefer-inline-snapshots.md
         'react/jsx-closing-tag-location': 'error',
     },
 };

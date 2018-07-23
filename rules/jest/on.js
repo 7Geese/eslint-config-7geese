@@ -48,5 +48,8 @@ module.exports = {
         //  Ensure we return promise out of
         //  https://github.com/jest-community/eslint-plugin-jest/blob/HEAD/docs/rules/valid-expect-in-promise.md
         'jest/valid-expect-in-promise': 'error',
+        //  Suggest using inline snapshots
+        //  https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/prefer-inline-snapshots.md
+        'jest/prefer-inline-snapshots': 'off',
     },
 };

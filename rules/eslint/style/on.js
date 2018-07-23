@@ -305,7 +305,7 @@ module.exports = {
         // https://eslint.org/docs/rules/prefer-numeric-literals
         'prefer-numeric-literals': 'off',
         //  https://github.com/eslint/eslint/blob/master/docs/rules/prefer-object-spread.md
-        'prefer-object-spread': 1,
+        'prefer-object-spread': 0,
         // Require or disallow padding lines between statements
         // https://eslint.org/docs/rules/padding-line-between-statements
         'padding-line-between-statements': 'off',
@@ -317,10 +317,7 @@ module.exports = {
             numbers: false,
         }],
         // specify whether double or single quotes should be used
-        quotes: [2, 'single', {
-            allowTemplateLiterals: true,
-            avoidEscape: true,
-        }],
+        quotes: 0,
         // Require JSDoc comment
         // https://eslint.org/docs/rules/require-jsdoc
         'require-jsdoc': 0,

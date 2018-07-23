@@ -151,6 +151,6 @@ module.exports = {
         //  https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-cycle.md
         'import/no-cycle': 'error',
         //  https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-relative-parent-imports.md
-        'import/no-relative-parent-imports': 'error',
+        'import/no-relative-parent-imports': 'off',
     },
 };
