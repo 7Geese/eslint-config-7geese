@@ -21,49 +21,51 @@ module.exports = {
         }],
         // ensure named imports coupled with named exports
         // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/named.md#when-not-to-use-it
-        'import/named': 2,
+        'import/named': 'error',
         // ensure default import coupled with default export
         // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/default.md#when-not-to-use-it
-        'import/default': 0,
+        'import/default': 'off',
         // Ensure imported namespaces contain dereferenced properties as they are dereferenced
         // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/namespace.md
-        'import/namespace': 0,
+        'import/namespace': 'off',
         // Report any invalid exports, i.e. re-export of the same name
         // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/export.md
-        'import/export': 2,
+        'import/export': 'error',
         // do not allow a default import name to match a named export
         // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-named-as-default.md
-        'import/no-named-as-default': 2,
+        'import/no-named-as-default': 'error',
         // warn on accessing default export property names that are also named exports
         // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-named-as-default-member.md
-        'import/no-named-as-default-member': 2,
+        'import/no-named-as-default-member': 'error',
         // Report imported names marked with @deprecated documentation tag
         // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-deprecated.md
-        'import/no-deprecated': 0,
+        'import/no-deprecated': 'error',
         // Forbid the use of extraneous packages
-        'import/no-extraneous-dependencies': 0,
+        'import/no-extraneous-dependencies': ['warn', {
+            'devDependencies': true,
+        }],
         // Forbid mutable exports
         // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-mutable-exports.md
-        'import/no-mutable-exports': 2,
+        'import/no-mutable-exports': 'error',
         // disallow require()
         // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-commonjs.md
-        'import/no-commonjs': 0,
+        'import/no-commonjs': 'off',
         // disallow AMD require/define
         // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-amd.md
-        'import/no-amd': 2,
+        'import/no-amd': 'error',
         // No Node.js builtin modules
         // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-nodejs-modules.md
-        'import/no-nodejs-modules': 0,
+        'import/no-nodejs-modules': 'off',
         // disallow non-import statements appearing before import statements
         // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/imports-first.md
         // deprecated: use `import/first`
-        'import/imports-first': 0,
+        'import/imports-first': 'off',
         // disallow non-import statements appearing before import statements
         // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/first.md
-        'import/first': 0,
+        'import/first': 'off',
         // Enforce a convention in module import order
         // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/order.md
-        'import/order': [2, {
+        'import/order': ['error', {
             'groups': [
                 'builtin',
                 'external',
@@ -73,7 +75,7 @@ module.exports = {
         }],
         // Report repeated import of the same module in multiple places
         // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-duplicates.md
-        'import/no-duplicates': 2,
+        'import/no-duplicates': 'error',
         // Report namespace imports
         // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-namespace.md
         'import/no-namespace': 'off',
