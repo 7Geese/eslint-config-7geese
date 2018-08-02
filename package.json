@@ -8,7 +8,7 @@
     "find-rules": "eslint-find-rules --unused",
     "print-config": "eslint --print-config index.js > new-config.json",
     "prepublish": "yarn outdated && yarn run find-rules && yarn run lint",
-    "bump-version": "yarn outdated && yarn run find-rules && yarn run lint && yarn version"
+    "release": "np"
   },
   "engines": {
     "node": ">= 6"
@@ -23,7 +23,8 @@
     "eslint-plugin-import": "^2.13.0",
     "eslint-plugin-jest": "^21.18.0",
     "eslint-plugin-promise": "^3.8.0",
-    "eslint-plugin-react": "^7.10.0"
+    "eslint-plugin-react": "^7.10.0",
+    "np": "^3.0.4"
   },
   "peerDependencies": {
     "babel-eslint": ">= 8.2.0",
