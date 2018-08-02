@@ -39,9 +39,11 @@ module.exports = {
         'import/no-named-as-default-member': 'error',
         // Report imported names marked with @deprecated documentation tag
         // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-deprecated.md
-        'import/no-deprecated': 'off',
+        'import/no-deprecated': 'error',
         // Forbid the use of extraneous packages
-        'import/no-extraneous-dependencies': 'off',
+        'import/no-extraneous-dependencies': ['warn', {
+            'devDependencies': true,
+        }],
         // Forbid mutable exports
         // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-mutable-exports.md
         'import/no-mutable-exports': 'error',

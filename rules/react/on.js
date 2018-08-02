@@ -7,11 +7,13 @@ module.exports = {
     plugins: ['react'],
     rules: {
         // Prevent missing displayName in a React component definition
-        'react/display-name': 'off',
+        'react/display-name': ['error', {
+            'ignoreTranspilerName': false,
+        }],
         // Forbid certain propTypes
-        'react/forbid-prop-types': 'off',
+        'react/forbid-prop-types': 'warn',
         // Prevent usage of dangerous JSX properties
-        'react/no-danger': 'off',
+        'react/no-danger': 'warn',
         // Prevent usage of deprecated methods
         'react/no-deprecated': 'error',
         // Prevent usage of setState in componentDidMount
@@ -27,7 +29,7 @@ module.exports = {
         // Prevent multiple component definition per file
         'react/no-multi-comp': 'error',
         // Prevent usage of the return value of React.render
-        'react/no-render-return-value': 'off',
+        'react/no-render-return-value': 'error',
         // Prevent usage of setState
         'react/no-set-state': 'off',
         // Prevent using string references in ref attribute.
@@ -37,7 +39,9 @@ module.exports = {
         // Enforce ES5 or ES6 class for React Components
         'react/prefer-es6-class': 'error',
         // Enforce stateless React Components to be written as a pure function
-        'react/prefer-stateless-function': 'off',
+        'react/prefer-stateless-function': ['error', {
+            'ignorePureComponents': true,
+        }],
         // Prevent missing props validation in a React component definition
         'react/prop-types': 'error',
         // Prevent missing React when using JSX
@@ -47,7 +51,7 @@ module.exports = {
         // Enforce React components to have a shouldComponentUpdate method
         'react/require-optimization': 'off',
         // Enforce ES5 or ES6 class for returning value in render function
-        'react/require-render-return': 'off',
+        'react/require-render-return': 'error',
         // Prevent extra closing tags for components without children
         'react/self-closing-comp': 'error',
         // Enforce component methods order
@@ -67,11 +71,15 @@ module.exports = {
         // Validate closing bracket location in JSX
         'react/jsx-closing-bracket-location': ['error', 'tag-aligned'],
         // Enforce or disallow spaces inside of curly braces in JSX attributes
-        'react/jsx-curly-spacing': 'off',
+        'react/jsx-curly-spacing': ['error', 'never', {
+            'allowMultiline': true,
+        }],
         // Enforce or disallow spaces around equal signs in JSX attributes (fixable)
-        'react/jsx-equals-spacing': 'off',
+        'react/jsx-equals-spacing': ['error', 'never'],
         // Restrict file extensions that may contain JSX
-        'react/jsx-filename-extension': 'off',
+        'react/jsx-filename-extension': ['error', {
+            'extensions': ['.jsx'],
+        }],
         // Enforce position of the first prop in JSX
         'react/jsx-first-prop-new-line': 'off',
         // Enforce event handler naming conventions in JSX
@@ -83,17 +91,26 @@ module.exports = {
         // Validate JSX has key prop when in array or iterator
         'react/jsx-key': 'error',
         // Limit maximum of props on a single line in JSX
-        'react/jsx-max-props-per-line': 'off',
+        'react/jsx-max-props-per-line': ['error', {
+            'maximum': 1,
+            'when': 'multiline',
+        }],
         // Prevent usage of .bind() and arrow functions in JSX props
-        'react/jsx-no-bind': 'off',
-        // Prevent comments from being inserted as text nodes
-        'react/jsx-no-comment-textnodes': 'off',
+        'react/jsx-no-bind': ['error', {
+            'ignoreRefs': true,
+            'allowArrowFunctions': true,
+            'allowBind': false,
+        }],
+        // Prevent comments from being ins'off'erted as text nodes
+        'react/jsx-no-comment-textnodes': 'error',
         // Prevent duplicate props in JSX
-        'react/jsx-no-duplicate-props': 'off',
+        'react/jsx-no-duplicate-props': ['error', {
+            'ignoreCase': true,
+        }],
         // Prevent usage of unwrapped JSX strings
         'react/jsx-no-literals': 'off',
         // Prevent usage of unsafe target='_blank'
-        'react/jsx-no-target-blank': 'off',
+        'react/jsx-no-target-blank': 'error',
         // Disallow undeclared variables in JSX
         'react/jsx-no-undef': 'error',
         // Enforce PascalCase for user-defined JSX components

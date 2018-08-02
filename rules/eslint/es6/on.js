@@ -33,7 +33,7 @@ module.exports = {
         'no-dupe-class-members': 'error',
         // disallow duplicate module imports
         // replaced by https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-duplicates.md
-        'no-duplicate-imports': 'off',
+        'no-duplicate-imports': 'error',
         // disallow use of the new operator with the Symbol object
         // https://eslint.org/docs/rules/no-new-symbol
         'no-new-symbol': 'error',

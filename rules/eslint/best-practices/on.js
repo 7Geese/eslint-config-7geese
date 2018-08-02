@@ -78,7 +78,7 @@ module.exports = {
         }],
         // disallow var and named functions in global scope
         // http://eslint.org/docs/rules/no-implicit-globals
-        'no-implicit-globals': 'off',
+        'no-implicit-globals': 'error',
         // disallow use of eval()-like methods
         'no-implied-eval': 'error',
         // disallow this keywords outside of classes or class-like objects
