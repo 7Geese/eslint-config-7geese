@@ -22,8 +22,8 @@
         "process": false
     },
     "rules": {
-        "no-magic-numbers": 0,
-        "max-len": 0,
-        "quote-props": 0
+        "no-magic-numbers": "off",
+        "max-len": "off",
+        "quote-props": "off"
     }
 }
