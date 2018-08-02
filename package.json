@@ -7,8 +7,8 @@
     "lint": "eslint --config .eslintrc *.js",
     "find-rules": "eslint-find-rules --unused",
     "print-config": "eslint --print-config index.js > new-config.json",
-    "test": "yarn outdated && yarn run find-rules && yarn run lint",
-    "release": "np"
+    "test": "npm outdated && npm run find-rules && npm run lint",
+    "release": "np --no-yarn"
   },
   "engines": {
     "node": ">= 6"
