@@ -7,7 +7,7 @@
     "lint": "eslint --config .eslintrc *.js",
     "find-rules": "eslint-find-rules --unused",
     "print-config": "eslint --print-config index.js > new-config.json",
-    "prepublish": "yarn outdated && yarn run find-rules && yarn run lint",
+    "test": "yarn outdated && yarn run find-rules && yarn run lint",
     "release": "np"
   },
   "engines": {
