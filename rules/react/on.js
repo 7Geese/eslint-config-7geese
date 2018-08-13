@@ -27,7 +27,9 @@ module.exports = {
         // Prevent usage of isMounted
         'react/no-is-mounted': 'error',
         // Prevent multiple component definition per file
-        'react/no-multi-comp': 'error',
+        'react/no-multi-comp': ['error', {
+            ignoreStateless: true,
+        }],
         // Prevent usage of the return value of React.render
         'react/no-render-return-value': 'error',
         // Prevent usage of setState
@@ -180,7 +182,7 @@ module.exports = {
         //  https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/boolean-prop-naming.md
         'react/boolean-prop-naming': ['error', { message: 'Yo dawg! Please name your boolean prop ({{propName}}) to start with "is" or "has", like "isBruceLoose"' }],
         //  https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/button-has-type.md
-        'react/button-has-type': 'error',
+        'react/button-has-type': 'warn',
         //  https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/default-props-match-prop-types.md
         'react/default-props-match-prop-types': 'error',
         //  https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/destructuring-assignment.md
