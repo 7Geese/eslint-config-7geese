@@ -42,5 +42,8 @@ module.exports = {
         //  https://github.com/jest-community/eslint-plugin-jest/blob/HEAD/docs/rules/valid-expect-in-promise.md
         'jest/valid-expect-in-promise': 'off',
         'jest/prefer-inline-snapshots': 'off',
+        'jest/expect-expect': 'off',
+        'jest/no-test-return-statement': 'off',
+        'jest/prefer-strict-equal': 'off',
     },
 };

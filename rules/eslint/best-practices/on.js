@@ -191,10 +191,21 @@ module.exports = {
         'wrap-iife': ['error', 'outside', { functionPrototypeMethods: false }],
         // require or disallow Yoda conditions
         yoda: ['error', 'never'],
-
         //  https://github.com/eslint/eslint/blob/master/docs/rules/max-classes-per-file.md
         'max-classes-per-file': 'error',
         //  https://github.com/eslint/eslint/blob/master/docs/rules/max-lines-per-function.md
         'max-lines-per-function': 'off',
+        //  Promise executor function shouldn't be async
+        //  https://eslint.org/docs/rules/no-async-promise-executor
+        'no-async-promise-executor': 'error',
+        //  Don't allow weird unicode stuff in regexes
+        //  https://eslint.org/docs/rules/no-misleading-character-class
+        'no-misleading-character-class': 'error',
+        //  Don't make silly mistakes with await/yeild
+        //  https://eslint.org/docs/rules/require-atomic-updates
+        'require-atomic-updates': 'error',
+        //  Enforce using the unicode flag for Regex
+        //  https://eslint.org/docs/rules/require-unicode-regexp
+        'require-unicode-regexp': 'off',
     },
 };

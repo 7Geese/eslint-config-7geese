@@ -51,5 +51,14 @@ module.exports = {
         //  Suggest using inline snapshots
         //  https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/prefer-inline-snapshots.md
         'jest/prefer-inline-snapshots': 'off',
+        //  Ensure there is an expect call in each test block
+        //  https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/expect-expect.md
+        'jest/expect-expect': 'error',
+        //  Jest wants your tests to be void and not return anything
+        //  https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/no-test-return-statement.md
+        'jest/no-test-return-statement': 'off',
+        //  Strict equality is better to check for
+        //  https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/prefer-strict-equal.md
+        'jest/prefer-strict-equal': 'off',
     },
 };

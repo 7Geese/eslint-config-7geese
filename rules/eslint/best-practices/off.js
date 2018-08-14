@@ -26,6 +26,8 @@ module.exports = {
         'max-classes-per-file': 'off',
         //  Max number of lines per file
         'max-lines-per-function': 'off',
+        //  Promise executor function shouldn't be async
+        'no-async-promise-executor': 'off',
         // disallow the use of alert, confirm, and prompt
         'no-alert': 'off',
         // disallow use of arguments.caller or arguments.callee
@@ -72,6 +74,8 @@ module.exports = {
         'no-loop-func': 'off',
         // disallow the use of magic numbers
         'no-magic-numbers': 'off',
+        //  Don't allow weird unicode stuff in regexes
+        'no-misleading-character-class': 'off',
         // disallow use of multiple spaces
         'no-multi-spaces': 'off',
         // disallow use of multiline strings
@@ -129,6 +133,10 @@ module.exports = {
         'no-with': 'off',
         // require use of the second argument for parseInt()
         radix: 'off',
+        //  Don't make silly mistakes with await/yeild
+        'require-atomic-updates': 'off',
+        //  Enforce using the unicode flag for Regex
+        'require-unicode-regexp': 'off',
         // requires to declare all vars on top of their containing scope
         'vars-on-top': 'off',
         // require immediate function invocation to be wrapped in parentheses
