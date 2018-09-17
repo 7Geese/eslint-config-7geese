@@ -29,10 +29,6 @@ module.exports = {
             vars: 'all',
         }],
         // disallow use of variables before they are defined
-        'no-use-before-define': ['error', {
-            classes: true,
-            functions: true,
-            variables: true,
-        }],
+        'no-use-before-define': 'off',
     },
 };
