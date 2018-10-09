@@ -60,5 +60,11 @@ module.exports = {
         //  Strict equality is better to check for
         //  https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/prefer-strict-equal.md
         'jest/prefer-strict-equal': 'off',
+        //  Don't use the deprecated/aliased version of Jest methods
+        //  https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/no-alias-methods.md
+        'jest/no-alias-methods': 'error',
+        //  .toThrow should have an argument/message
+        //  https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/require-tothrow-message.md
+        'jest/require-tothrow-message': 'error',
     },
 };

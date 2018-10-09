@@ -45,5 +45,7 @@ module.exports = {
         'jest/expect-expect': 'off',
         'jest/no-test-return-statement': 'off',
         'jest/prefer-strict-equal': 'off',
+        'jest/no-alias-methods': 'off',
+        'jest/require-tothrow-message': 'off',
     },
 };
