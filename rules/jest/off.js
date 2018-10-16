@@ -47,5 +47,6 @@ module.exports = {
         'jest/prefer-strict-equal': 'off',
         'jest/no-alias-methods': 'off',
         'jest/require-tothrow-message': 'off',
+        'jest/prefer-to-contain': 'off',
     },
 };

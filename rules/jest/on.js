@@ -66,5 +66,8 @@ module.exports = {
         //  .toThrow should have an argument/message
         //  https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/require-tothrow-message.md
         'jest/require-tothrow-message': 'error',
+        //  Use .toContain when checking Array.includes
+        //  https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/prefer-to-contain.md
+        'jest/prefer-to-contain': 'error',
     },
 };
