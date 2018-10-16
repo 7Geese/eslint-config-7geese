@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-7geese",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "description": "An eslint config to enforce JavaScript coding style at 7Geese.",
   "main": "index.js",
   "scripts": {
