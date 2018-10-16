@@ -69,9 +69,12 @@ module.exports = {
             'groups': [
                 'builtin',
                 'external',
-                ['internal', 'parent', 'sibling', 'index'],
+                'internal',
+                'parent',
+                'sibling',
+                'index',
             ],
-            'newlines-between': 'never',
+            'newlines-between': 'always',
         }],
         // Report repeated import of the same module in multiple places
         // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-duplicates.md
