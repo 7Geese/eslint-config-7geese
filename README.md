@@ -33,12 +33,8 @@ If using yarn/npm < 5, Linux/macOS users can run:
 Which produces and runs a command like:
 
 ```
-  npm install --save-dev babel-eslint@^#.#.# eslint@^#.#.# eslint-plugin-7g@^#.#.# eslint-plugin-compat@^#.#.# eslint-plugin-filenames@^#.#.# eslint-plugin-import@^#.#.# eslint-plugin-jest@^#.#.# eslint-plugin-promise@^#.#.# eslint-plugin-react@^#.#.#
-
-```
-
 npm install --save-dev babel-eslint eslint eslint-plugin-7g eslint-plugin-compat eslint-plugin-filenames eslint-plugin-import eslint-plugin-jest eslint-plugin-promise eslint-plugin-react
-
+```
 
 ### Usage
 
