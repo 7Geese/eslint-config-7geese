@@ -39,7 +39,7 @@ module.exports = {
         'import/no-named-as-default-member': 'error',
         // Report imported names marked with @deprecated documentation tag
         // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-deprecated.md
-        'import/no-deprecated': 'error',
+        'import/no-deprecated': 'warn',
         // Forbid the use of extraneous packages
         'import/no-extraneous-dependencies': ['warn', {
             'devDependencies': true,
