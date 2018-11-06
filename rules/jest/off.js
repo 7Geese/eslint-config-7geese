@@ -48,5 +48,7 @@ module.exports = {
         'jest/no-alias-methods': 'off',
         'jest/require-tothrow-message': 'off',
         'jest/prefer-to-contain': 'off',
+        'jest/no-test-callback': 'off',
+        'jest/prefer-spy-on': 'off',
     },
 };
