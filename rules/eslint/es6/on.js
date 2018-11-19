@@ -64,7 +64,7 @@ module.exports = {
         }],
         // suggest using of const declaration for variables that are never modified after declared
         'prefer-const': ['error', {
-            destructuring: 'any',
+            destructuring: 'all',
             ignoreReadBeforeAssign: true,
         }],
         // Prefer destructuring from arrays and objects

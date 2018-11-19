@@ -8,8 +8,8 @@ module.exports = {
         // treat var statements as if they were block scoped
         'block-scoped-var': 'error',
         // specify the maximum cyclomatic complexity allowed in a program
-        // https://eslint.org/docs/3.0.0/rules/complexity#limit-cyclomatic-complexity-complexity
-        complexity: ['error', 11],
+        // https://eslint.org/docs/3.0.0/rules/complexity
+        complexity: ['error', 12],
         // enforce that class methods use "this"
         // http://eslint.org/docs/rules/class-methods-use-this
         'class-methods-use-this': 'off',
@@ -93,12 +93,7 @@ module.exports = {
         'no-loop-func': 'error',
         // disallow magic numbers
         // http://eslint.org/docs/rules/no-magic-numbers
-        'no-magic-numbers': ['off', {
-            ignore: [],
-            ignoreArrayIndexes: true,
-            enforceConst: true,
-            detectObjects: false,
-        }],
+        'no-magic-numbers': 'off',
         // disallow use of multiple spaces
         'no-multi-spaces': 'error',
         // disallow use of multiline strings
