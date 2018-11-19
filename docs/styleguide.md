@@ -248,7 +248,7 @@ X. Domain-specific rules (7G rules)
 
   > Why?
   >
-  > `let` is block-scoped rather than function-scoped like `var`. Read more in this [blog post](https://hackernoon.com/why-you-shouldnt-use-var-anymore-f109a58b9b70)
+  > `let` is block-scoped rather than function-scoped like `var`. Read more in this [blog post](https://hackernoon.com/why-you-shouldnt-use-var-anymore-f109a58b9b70).
 
 <a name="references--block-scope"></a><a name="2.4"></a>
 - [2.4](#references--block-scope) Note that both `let` and `const` are block-scoped.
@@ -270,6 +270,7 @@ X. Domain-specific rules (7G rules)
   > - [`no-undef`](http://eslint.org/docs/rules/no-undef)
   > - [`no-undef-init`](http://eslint.org/docs/rules/no-undef-init)
   > - [`jsx-no-undef`](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-no-undef.md)
+  >
   >
   > defined in:
   > - [`rules/eslint/variables`](https://github.com/7Geese/eslint-config-7geese/blob/master/rules/eslint/variables/on.js)
