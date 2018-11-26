@@ -296,7 +296,12 @@ module.exports = {
         'operator-assignment': ['error', 'always'],
         // Requires operator at the beginning of the line in multiline statements
         // https://eslint.org/docs/rules/operator-linebreak
-        'operator-linebreak': ['error', 'before'],
+        'operator-linebreak': ['error', 'before', {
+            'overrides': {
+                '&&': 'after',
+                '||': 'after',
+            },
+        }],
         // enforce padding within blocks
         'padded-blocks': ['error', {
             blocks: 'never',
