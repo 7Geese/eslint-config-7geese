@@ -50,5 +50,6 @@ module.exports = {
         'jest/prefer-to-contain': 'off',
         'jest/no-test-callback': 'off',
         'jest/prefer-spy-on': 'off',
+        'jest/no-truthy-falsy': 'off',
     },
 };

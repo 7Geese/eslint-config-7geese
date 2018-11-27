@@ -75,5 +75,8 @@ module.exports = {
         //  .spyOn doesn't mess with the original implementation
         //  https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/prefer-spy-on.md
         'jest/prefer-spy-on': 'error',
+        //  Disallow .toBeTruthy()/.toBeFalsy()
+        //  https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/no-truthy-falsy.md
+        'jest/no-truthy-falsy': 'error',
     },
 };
