@@ -1,15 +1,9 @@
-### eslint-config-7geese
-
-An `eslint` config to enforce JavaScript coding style at [7Geese](https://7geese.com/).
-
-<!--
-_Coming soon_
-
-You can read more about our coding style [over here](https://github.com/7Geese/eslint-config-7geese/blob/master/docs/styleguide.md).
--->
+## eslint-config-7geese
+> An ESLint config to enforce JavaScript coding style at [7Geese](https://7geese.com/).
 
 Inspired heavily by [AirBnB](https://github.com/airbnb/javascript), [Walmart](https://github.com/walmartlabs/eslint-config-walmart) and [Formidable](https://github.com/FormidableLabs/eslint-config-formidable) configurations.
 
+You can read our full JavaScript style guide over [here](https://github.com/7Geese/eslint-config-7geese/blob/master/docs/styleguide.md), which outlines some of the decisions that we have made about the code that we write.
 
 ### Installation
 
