@@ -197,8 +197,6 @@ module.exports = {
         'react/forbid-foreign-prop-types': 'error',
         //  https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-child-element-spacing.md
         'react/jsx-child-element-spacing': 'error',
-        //  Suggest using inline snapshots
-        //  https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/prefer-inline-snapshots.md
         'react/jsx-closing-tag-location': 'error',
     },
 };
