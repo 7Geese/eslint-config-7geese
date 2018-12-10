@@ -54,7 +54,7 @@ module.exports = {
         'no-unsafe-finally': 'off',
         // disallow comparisons with the value NaN
         'use-isnan': 'off',
-        // ensure JSDoc comments are valid
+        // [DEPRECATED] ensure JSDoc comments are valid
         'valid-jsdoc': 'off',
         // ensure that the results of typeof are compared against a valid string
         'valid-typeof': 'off',

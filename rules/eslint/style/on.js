@@ -324,7 +324,7 @@ module.exports = {
         }],
         // specify whether double or single quotes should be used
         quotes: 'off',
-        // Require JSDoc comment
+        // [DEPRECATED] Require JSDoc comment
         // https://eslint.org/docs/rules/require-jsdoc
         'require-jsdoc': 'off',
         // require or disallow use of semicolons instead of ASI

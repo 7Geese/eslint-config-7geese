@@ -83,7 +83,7 @@ module.exports = {
         'no-unsafe-negation': 'error',
         // disallow comparisons with the value NaN
         'use-isnan': 'error',
-        // ensure JSDoc comments are valid
+        // [DEPRECATED] ensure JSDoc comments are valid
         // https://eslint.org/docs/rules/valid-jsdoc
         'valid-jsdoc': 'off',
         // ensure that the results of typeof are compared against a valid string
