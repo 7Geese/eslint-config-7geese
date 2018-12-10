@@ -12,7 +12,7 @@ module.exports = {
         'jsx-a11y/anchor-has-content': 'error',
         //  anchor-is-valid - Enforce all anchors are valid, navigable elements.
         //  https://github.com/evcohen/eslint-plugin-jsx-a11y/tree/master/docs/rules/anchor-is-valid.md
-        'jsx-a11y/anchor-is-valid': 'error',
+        'jsx-a11y/anchor-is-valid': 'warn',
         //  aria-activedescendant-has-tabindex - Enforce elements with aria-activedescendant are tabbable.
         //  https://github.com/evcohen/eslint-plugin-jsx-a11y/tree/master/docs/rules/aria-activedescendant-has-tabindex.md
         'jsx-a11y/aria-activedescendant-has-tabindex': 'error',
@@ -30,7 +30,7 @@ module.exports = {
         'jsx-a11y/aria-unsupported-elements': 'error',
         //  click-events-have-key-events - Enforce a clickable non-interactive element has at least one keyboard event listener.
         //  https://github.com/evcohen/eslint-plugin-jsx-a11y/tree/master/docs/rules/click-events-have-key-events.md
-        'jsx-a11y/click-events-have-key-events': 'warn',
+        'jsx-a11y/click-events-have-key-events': 'off',
         //  heading-has-content - Enforce heading (`h1`, `h2`, etc) elements contain accessible content.
         //  https://github.com/evcohen/eslint-plugin-jsx-a11y/tree/master/docs/rules/heading-has-content.md
         'jsx-a11y/heading-has-content': 'error',
@@ -48,7 +48,7 @@ module.exports = {
         'jsx-a11y/interactive-supports-focus': 'error',
         //  [DEPRECATED] label-has-for - Enforce that `<label>` elements have the `htmlFor` prop.
         //  https://github.com/evcohen/eslint-plugin-jsx-a11y/tree/master/docs/rules/label-has-for.md
-        'jsx-a11y/label-has-for': 'off',
+        'jsx-a11y/label-has-for': 'error',
         //  label-has-associated-control - Enforce that a label tag has a text label and an associated control.
         //  https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/label-has-associated-control.md
         'jsx-a11y/label-has-associated-control': 'error',
@@ -60,7 +60,7 @@ module.exports = {
         'jsx-a11y/media-has-caption': 'error',
         //  mouse-events-have-key-events - Enforce that `onMouseOver`/`onMouseOut` are accompanied by `onFocus`/`onBlur` for keyboard-only users.
         //  https://github.com/evcohen/eslint-plugin-jsx-a11y/tree/master/docs/rules/mouse-events-have-key-events.md
-        'jsx-a11y/mouse-events-have-key-events': 'warn',
+        'jsx-a11y/mouse-events-have-key-events': 'off',
         //  no-access-key - Enforce that the `accessKey` prop is not used on any element to avoid complications with keyboard commands used by a screenreader.
         //  https://github.com/evcohen/eslint-plugin-jsx-a11y/tree/master/docs/rules/no-access-key.md
         'jsx-a11y/no-access-key': 'error',
