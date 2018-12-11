@@ -53,14 +53,26 @@ Add this config under the `"extends"` part of your `.eslintrc` file:
 }
 ```
 
-If you want to turn on/off specific rulesets, you can do so like this:
+If there are plugins or rules which you do not want to use, you'll have to opt-in/out of the specific rulesets which you want to use:
 
 ```
 {
     "extends": [
-        "7geese",
-        "7geese/rules/eslint/jsx-a11y/off",
-        "7geese/rules/react/off",
+        "7geese/rules/eslint/best-practices/on",
+        "7geese/rules/eslint/errors/on",
+        "7geese/rules/eslint/es6/on",
+        "7geese/rules/eslint/node/on",
+        "7geese/rules/eslint/strict/on",
+        "7geese/rules/eslint/style/on",
+        "7geese/rules/eslint/variables/on",
+        "7geese/rules/7geese/off",
+        "7geese/rules/compat/off",
+        "7geese/rules/filenames/on",
+        "7geese/rules/import/on",
+        "7geese/rules/jest/on",
+        "7geese/rules/jsx-a11y/off",
+        "7geese/rules/promise/on",
+        "7geese/rules/react/off"
     ]
 }
 ```
