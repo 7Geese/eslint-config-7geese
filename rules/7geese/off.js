@@ -1,5 +1,5 @@
 module.exports = {
     rules: {
-        '7g/moment-utc': 'off',
+        '7g/no-classname-on-common-components': 'warn',
     },
 };
