@@ -1,5 +1,4 @@
 module.exports = {
-    plugins: ['filenames'],
     rules: {
         // Enforce dash-cased filenames
         'filenames/match-regex': 'off',

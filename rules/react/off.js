@@ -1,8 +1,4 @@
 module.export = {
-    env: {
-        browser: true,
-    },
-    plugins: ['react'],
     rules: {
         // Prevent missing displayName in a React component definition
         'react/display-name': 'off',
