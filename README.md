@@ -1,6 +1,14 @@
-### eslint-config-7geese
+<div align="center">
+  <a href="https://eslint.org/">
+    <img width="150" height="150" src="https://eslint.org/img/logo.svg">
+  </a>
+  <a href="https://7geese.com">
+    <img width="150" height="150" vspace="" hspace="25" src="https://user-images.githubusercontent.com/4298089/29260121-a9256298-807c-11e7-95c2-74d5c9841874.png">
+  </a>
+  <h1>eslint-config-7geese</h1>
+  <p style="font-style: italic;">ESLint config to enforce JavaScript coding style at <a href="https://github.com/7Geese">7Geese</a>.</p>
+</div>
 
-An `eslint` config to enforce JavaScript coding style at [7Geese](https://7geese.com/).
 
 <!--
 _Coming soon_
@@ -8,33 +16,32 @@ _Coming soon_
 You can read more about our coding style [over here](https://github.com/7Geese/eslint-config-7geese/blob/master/docs/styleguide.md).
 -->
 
-Inspired heavily by [AirBnB](https://github.com/airbnb/javascript), [Walmart](https://github.com/walmartlabs/eslint-config-walmart) and [Formidable](https://github.com/FormidableLabs/eslint-config-formidable) configurations.
-
 
 ### Installation
 
-Install `eslint`, `eslint-config-7geese`, and all the required peerDependencies for the config with one of the following commands:
-
-If using npm 5+, use this shortcut:
+First install `eslint` and the config as `devDependencies`, using either `yarn` or `npm`:
 
 ```
-npx install-peerdeps --dev eslint-config-7geese
+yarn add -D eslint eslint-config-7geese
+
+npm install -D eslint eslint-config-7geese
 ```
 
-If using yarn/npm < 5, Linux/macOS users can run:
+Next, you'll need to install any plugins you wish to use. In most cases, you'll want them all, so you can install them all with (this example using `yarn`):
 
 ```
-(
-    export PKG=eslint-config-7geese;
-    npm info "$PKG@latest" peerDependencies --json | command sed 's/[\{\},]//g ; s/: /@/g' | xargs yarn add --save-dev "$PKG@latest"
-)
+yarn add -D \
+    eslint-plugin-7g \
+    eslint-plugin-compat \
+    eslint-plugin-filenames \
+    eslint-plugin-import \
+    eslint-plugin-jest \
+    eslint-plugin-jsx-a11y \
+    eslint-plugin-promise \
+    eslint-plugin-react
 ```
 
-Which produces and runs a command like:
 
-```
-npm install --save-dev babel-eslint eslint eslint-plugin-7g eslint-plugin-compat eslint-plugin-filenames eslint-plugin-import eslint-plugin-jest eslint-plugin-jsx-a11y eslint-plugin-promise eslint-plugin-react
-```
 
 ### Usage
 
@@ -59,3 +66,7 @@ If you want to turn on/off specific rulesets, you can do so like this:
 ```
 
 For more details about how shareable configs work, [see the ESLint documentation](https://eslint.org/docs/developer-guide/shareable-configs).
+
+### Inspiration
+
+Inspired heavily by [AirBnB](https://github.com/airbnb/javascript), [Walmart](https://github.com/walmartlabs/eslint-config-walmart) and [Formidable](https://github.com/FormidableLabs/eslint-config-formidable) ESLint configs.
