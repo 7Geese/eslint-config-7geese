@@ -82,3 +82,8 @@ For more details about how shareable configs work, [see the ESLint documentation
 ### Inspiration
 
 Inspired heavily by [AirBnB](https://github.com/airbnb/javascript), [Walmart](https://github.com/walmartlabs/eslint-config-walmart) and [Formidable](https://github.com/FormidableLabs/eslint-config-formidable) ESLint configs.
+
+
+### See also
+
+Check out [our ESLint plugin](https://github.com/7Geese/eslint-plugin-7g), with some rules for writing JavaScript code at 7Geese.
