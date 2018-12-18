@@ -62,7 +62,7 @@ module.exports = {
         'no-obj-calls': 'error',
         // disallow use of Object.prototypes builtins directly
         // https://eslint.org/docs/rules/no-prototype-builtins
-        'no-prototype-builtins': 'error',
+        'no-prototype-builtins': 'warn',
         // disallow multiple spaces in a regular expression literal
         'no-regex-spaces': 'error',
         // disallow sparse arrays

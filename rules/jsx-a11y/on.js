@@ -48,7 +48,7 @@ module.exports = {
         'jsx-a11y/interactive-supports-focus': 'error',
         //  [DEPRECATED] label-has-for - Enforce that `<label>` elements have the `htmlFor` prop.
         //  https://github.com/evcohen/eslint-plugin-jsx-a11y/tree/master/docs/rules/label-has-for.md
-        'jsx-a11y/label-has-for': 'error',
+        'jsx-a11y/label-has-for': 'off',
         //  label-has-associated-control - Enforce that a label tag has a text label and an associated control.
         //  https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/label-has-associated-control.md
         'jsx-a11y/label-has-associated-control': 'error',
