@@ -348,7 +348,7 @@ module.exports = {
         // require or disallow space before function opening parenthesis
         // https://eslint.org/docs/rules/space-before-function-paren
         'space-before-function-paren': ['error', {
-            anonymous: 'always',
+            anonymous: 'never',
             named: 'never',
             asyncArrow: 'always',
         }],
