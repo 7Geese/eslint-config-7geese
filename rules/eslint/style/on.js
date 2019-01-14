@@ -249,7 +249,9 @@ module.exports = {
             },
         ],
         // disallow space between function identifier and application
-        'no-spaced-func': 'error',
+        // This rule has been deprecated in favour of the `func-call-spacing`
+        // https://eslint.org/docs/rules/no-spaced-func
+        'no-spaced-func': 'off',
         // disallow tab characters entirely
         'no-tabs': 'error',
         // disallow the use of ternary operators
