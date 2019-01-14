@@ -143,5 +143,7 @@ module.exports = {
         'wrap-iife': 'off',
         // require or disallow Yoda conditions
         yoda: 'off',
+        // Prevents catch clauses which just throw the original error
+        'no-useless-catch': 'off',
     },
 };

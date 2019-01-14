@@ -159,5 +159,7 @@ module.export = {
         'react/jsx-child-element-spacing': 'off',
         //  https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-closing-tag-location.md
         'react/jsx-closing-tag-location': 'off',
+        //  https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-fragments.md
+        'react/jsx-fragments': 'off',
     },
 };

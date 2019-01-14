@@ -202,5 +202,8 @@ module.exports = {
         //  Enforce using the unicode flag for Regex
         //  https://eslint.org/docs/rules/require-unicode-regexp
         'require-unicode-regexp': 'off',
+        // Prevents catch clauses which just throw the original error
+        // https://eslint.org/docs/rules/no-useless-catch
+        'no-useless-catch': 'error',
     },
 };

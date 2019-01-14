@@ -198,5 +198,8 @@ module.exports = {
         //  https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-child-element-spacing.md
         'react/jsx-child-element-spacing': 'error',
         'react/jsx-closing-tag-location': 'error',
+        //  Enforces proper use of JSX fragments
+        //  https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-fragments.md
+        'react/jsx-fragments': ['error', 'element'],
     },
 };
