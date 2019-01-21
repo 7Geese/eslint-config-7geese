@@ -36,8 +36,8 @@ Only for new plugins being added or removed, or for a major breaking change or b
 
 **Minor versions**
 
-Bumps plugins/dependencies which add new features or rules (which will then need to be tested in our codebase).
+Turning on/off rules, bumping plugins/dependencies which add new features or rules (which will then need to be tested in our codebase).
 
 **Patch versions**
 
-Minor typos or documentation fixes. Could also include package upgrades, as long as they are minor/bug fix type updates.
+Minor typos or documentation fixes. Could also include package upgrades, as long as they are only minor/bug fix type updates.
