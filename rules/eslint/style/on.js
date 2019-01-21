@@ -164,7 +164,7 @@ module.exports = {
         //     skipComments: true,
         // }],
         // specify the maximum depth callbacks can be nested
-        'max-nested-callbacks': ['error', 4],
+        'max-nested-callbacks': 'off',
         // limits the number of parameters that can be used in the function declaration.
         'max-params': ['off', 3],
         // specify the maximum number of statement allowed in a function
