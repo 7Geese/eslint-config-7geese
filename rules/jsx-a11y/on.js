@@ -103,5 +103,8 @@ module.exports = {
         //  tabindex-no-positive - Enforce `tabIndex` value is not greater than zero.
         //  https://github.com/evcohen/eslint-plugin-jsx-a11y/tree/master/docs/rules/tabindex-no-positive.md
         'jsx-a11y/tabindex-no-positive': 'error',
+        //  Enforce that a control (an interactive element) has a text label.
+        //  https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/control-has-associated-label.md
+        'jsx-a11y/control-has-associated-label': 'error',
     },
 };
