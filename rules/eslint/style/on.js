@@ -62,7 +62,7 @@ module.exports = {
         'func-names': 'off',
         // enforces use of function declarations or expressions
         // https://eslint.org/docs/rules/func-style
-        'func-style': ['error', 'expression'],
+        'func-style': ['error', 'expression', { 'allowArrowFunctions': true }],
         // enforce consistent line breaks inside function parentheses
         // https://eslint.org/docs/rules/function-paren-newline
         'function-paren-newline': 'off',
@@ -78,7 +78,7 @@ module.exports = {
         'implicit-arrow-linebreak': ['error', 'beside'],
         // this option sets a specific tab width for your code
         // https://eslint.org/docs/rules/indent
-        indent: ['error', 4, {
+        'indent': ['error', 4, {
             SwitchCase: 1,
             VariableDeclarator: 1,
             outerIIFEBody: 1,
@@ -93,6 +93,7 @@ module.exports = {
             CallExpression: {
                 arguments: 1,
             },
+            MemberExpression: 0,
             ArrayExpression: 1,
             ObjectExpression: 1,
             ImportDeclaration: 1,
@@ -264,8 +265,8 @@ module.exports = {
         // disallow dangling underscores in identifiers
         'no-underscore-dangle': ['error', {
             allow: [],
-            allowAfterThis: false,
-            allowAfterSuper: false,
+            allowAfterThis: true,
+            allowAfterSuper: true,
             enforceInMethodNames: false,
         }],
         // disallow the use of Boolean literals in conditional expressions

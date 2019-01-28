@@ -14,7 +14,7 @@ module.exports = {
         // http://eslint.org/docs/rules/class-methods-use-this
         'class-methods-use-this': 'off',
         // require return statements to either always or never specify values
-        'consistent-return': 'error',
+        'consistent-return': 'off',
         // specify curly brace conventions for multi-line control statements
         curly: ['error', 'multi-line'],
         // require default case in switch statements
