@@ -52,7 +52,7 @@ module.exports = {
         'no-var': 'error',
         // require method and property shorthand syntax for object literals
         // https://eslint.org/docs/rules/object-shorthand
-        'object-shorthand': 'error',
+        'object-shorthand': ['error', 'always', { avoidQuotes: true }],
         // suggest using arrow functions as callbacks
         'prefer-arrow-callback': ['error', {
             allowNamedFunctions: false,
