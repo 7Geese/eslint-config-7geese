@@ -78,5 +78,8 @@ module.exports = {
         //  Disallow .toBeTruthy()/.toBeFalsy()
         //  https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/no-truthy-falsy.md
         'jest/no-truthy-falsy': 'error',
+        //  When test cases are empty, it is better to mark them as test.todo as it will be highlighted in the summary output.
+        //  https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/prefer-todo.md
+        'jest/prefer-todo': 'error',
     },
 };
