@@ -149,13 +149,7 @@ module.exports = {
         'max-depth': ['error', 4],
         // specify the maximum length of a line in your program
         // https://eslint.org/docs/rules/max-len
-        'max-len': ['error', 150, 2, {
-            ignoreUrls: true,
-            ignoreComments: false,
-            ignoreRegExpLiterals: true,
-            ignoreStrings: true,
-            ignoreTemplateLiterals: true,
-        }],
+        'max-len': 'off',
         // specify the max number of lines in a file
         // https://eslint.org/docs/rules/max-lines
         'max-lines': 'off',
@@ -279,7 +273,10 @@ module.exports = {
         // https://eslint.org/docs/rules/nonblock-statement-body-position
         'nonblock-statement-body-position': 'off',
         // require or disallow padding inside curly braces
-        'object-curly-spacing': 'off',
+        'object-curly-spacing': ['error', 'always', {
+            arraysInObjects: true,
+            objectsInObjects: true,
+        }],
         // enforce placing object properties on separate lines or all on same line
         // https://eslint.org/docs/rules/object-curly-newline
         'object-curly-newline': ['error', {
@@ -296,7 +293,7 @@ module.exports = {
         // require or disallow an newline around variable declarations
         'one-var-declaration-per-line': ['error', 'always'],
         // require assignment operator shorthand where possible or prohibit it entirely
-        'operator-assignment': ['error', 'always'],
+        'operator-assignment': 'off',
         // Requires operator at the beginning of the line in multiline statements
         // https://eslint.org/docs/rules/operator-linebreak
         'operator-linebreak': ['error', 'before', {
@@ -314,7 +311,7 @@ module.exports = {
         // https://eslint.org/docs/rules/prefer-numeric-literals
         'prefer-numeric-literals': 'off',
         //  https://github.com/eslint/eslint/blob/master/docs/rules/prefer-object-spread.md
-        'prefer-object-spread': 'off',
+        'prefer-object-spread': 'error',
         // Require or disallow padding lines between statements
         // https://eslint.org/docs/rules/padding-line-between-statements
         'padding-line-between-statements': 'off',
