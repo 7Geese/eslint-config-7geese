@@ -10,7 +10,7 @@ module.exports = {
         // https://eslint.org/docs/rules/no-label-var
         'no-label-var': 'error',
         // disallow specific globals
-        'no-restricted-globals': 'off',
+        'no-restricted-globals': ['error', 'event'],
         // disallow declaration of variables already declared in the outer scope
         'no-shadow': 'error',
         // disallow shadowing of names such as arguments
