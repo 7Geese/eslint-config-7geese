@@ -303,11 +303,7 @@ module.exports = {
             },
         }],
         // enforce padding within blocks
-        'padded-blocks': ['error', {
-            blocks: 'never',
-            classes: 'never',
-            switches: 'never',
-        }],
+        'padded-blocks': 'off',
         // https://eslint.org/docs/rules/prefer-numeric-literals
         'prefer-numeric-literals': 'off',
         //  https://github.com/eslint/eslint/blob/master/docs/rules/prefer-object-spread.md
