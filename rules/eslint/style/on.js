@@ -195,7 +195,7 @@ module.exports = {
         'no-bitwise': 'error',
         // disallow use of the continue statement
         // https://eslint.org/docs/rules/no-continue
-        'no-continue': 'error',
+        'no-continue': 'off',
         // disallow comments inline after code
         'no-inline-comments': 'off',
         // disallow if as the only statement in an else block
