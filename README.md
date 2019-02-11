@@ -38,7 +38,8 @@ yarn add -D \
     eslint-plugin-jest \
     eslint-plugin-jsx-a11y \
     eslint-plugin-promise \
-    eslint-plugin-react
+    eslint-plugin-react \
+    eslint-plugin-react-hooks
 ```
 
 
@@ -72,7 +73,8 @@ If there are plugins or rules which you do not want to use, you'll have to opt-i
         "7geese/rules/jest/on",
         "7geese/rules/jsx-a11y/off",
         "7geese/rules/promise/on",
-        "7geese/rules/react/off"
+        "7geese/rules/react/off",
+        "7geese/rules/react-hooks/off"
     ]
 }
 ```
