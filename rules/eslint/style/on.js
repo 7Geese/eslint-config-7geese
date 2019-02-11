@@ -358,17 +358,7 @@ module.exports = {
             overrides: {},
         }],
         // require or disallow a space immediately following the // or /* in a comment
-        'spaced-comment': ['error', 'always', {
-            line: {
-                markers: ['!'],
-                exceptions: ['-', '+'],
-            },
-            block: {
-                markers: ['!'],
-                exceptions: ['*'],
-                balanced: true,
-            },
-        }],
+        'spaced-comment': ['error', 'always'],
         // Enforce spacing around colons of switch statements
         // https://eslint.org/docs/rules/switch-colon-spacing
         'switch-colon-spacing': ['error', { after: true, before: false }],
