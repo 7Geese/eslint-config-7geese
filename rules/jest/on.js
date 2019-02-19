@@ -81,5 +81,7 @@ module.exports = {
         //  When test cases are empty, it is better to mark them as test.todo as it will be highlighted in the summary output.
         //  https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/prefer-todo.md
         'jest/prefer-todo': 'error',
+        //  https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/prefer-called-with.md
+        'jest/prefer-called-with': 'off',
     },
 };
