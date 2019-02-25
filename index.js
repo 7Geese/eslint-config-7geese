@@ -16,6 +16,7 @@ module.exports = {
         './rules/jsx-a11y/on.js',
         './rules/promise/on.js',
         './rules/react/on.js',
+        './rules/react-hooks/on.js',
     ].map(require.resolve),
     parser: 'babel-eslint',
     parserOptions: {
