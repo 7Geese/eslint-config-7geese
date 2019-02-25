@@ -93,13 +93,13 @@ module.exports = {
         'import/newline-after-import': ['error', { count: 2 }],
         // Require modules with a single export to use a default export
         // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/prefer-default-export.md
-        'import/prefer-default-export': 'error',
+        'import/prefer-default-export': 'off',
         // Restrict which files can be imported in a given folder
         // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-restricted-paths.md
         'import/no-restricted-paths': 'off',
         // Forbid modules to have too many dependencies
         // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/max-dependencies.md
-        'import/max-dependencies': ['error', { max: 12 }],
+        'import/max-dependencies': ['warn', { max: 12 }],
         // Forbid import of modules using absolute paths
         // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-absolute-path.md
         'import/no-absolute-path': 'error',
@@ -137,7 +137,7 @@ module.exports = {
         }],
         // This rule enforces that all exports are declared at the bottom of the file.
         // https://github.com/benmosher/eslint-plugin-import/blob/98acd6afd04dcb6920b81330114e146dc8532ea4/docs/rules/exports-last.md
-        'import/exports-last': 'error',
+        'import/exports-last': 'off',
         // Reports when named exports are not grouped together in a single export declaration
         // or when multiple assignments to CommonJS module.exports or exports object are present in a single file.
         // https://github.com/benmosher/eslint-plugin-import/blob/44a038c06487964394b1e15b64f3bd34e5d40cde/docs/rules/group-exports.md
@@ -152,7 +152,7 @@ module.exports = {
         // https://github.com/benmosher/eslint-plugin-import/issues/1032
         'import/no-useless-path-segments': 'error',
         //  https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/dynamic-import-chunkname.md
-        'import/dynamic-import-chunkname': 'error',
+        'import/dynamic-import-chunkname': ['error', { webpackChunknameFormat: '^[a-z0-9\\-\\.]+$' }],
         //  https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-cycle.md
         'import/no-cycle': 'error',
         //  https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-relative-parent-imports.md
