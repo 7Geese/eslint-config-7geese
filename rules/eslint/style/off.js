@@ -91,7 +91,7 @@ module.exports = {
         // disallow space between function identifier and application
         'no-spaced-func': 'off',
         // disallow tab characters entirely
-        'no-tabs': 'error',
+        'no-tabs': 'off',
         // disallow the use of ternary operators
         'no-ternary': 'off',
         // disallow trailing whitespace at the end of lines
