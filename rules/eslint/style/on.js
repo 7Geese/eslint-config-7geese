@@ -29,7 +29,10 @@ module.exports = {
             functions: 'always-multiline',
         }],
         // enforce spacing before and after comma
-        'comma-spacing': ['error', { before: false, after: true }],
+        'comma-spacing': ['error', {
+            before: false,
+            after: true,
+        }],
         // enforce one true comma style
         'comma-style': ['error', 'last', {
             exceptions: {
@@ -107,7 +110,10 @@ module.exports = {
         'jsx-quotes': ['error', 'prefer-double'],
         // enforces spacing between keys and values in object literal properties
         // https://eslint.org/docs/rules/key-spacing
-        'key-spacing': ['error', { beforeColon: false, afterColon: true }],
+        'key-spacing': ['error', {
+            beforeColon: false,
+            afterColon: true,
+        }],
         // require a space before & after certain keywords
         'keyword-spacing': ['error', {
             before: true,
@@ -173,7 +179,7 @@ module.exports = {
         //  https://eslint.org/docs/rules/multiline-ternary
         'multiline-ternary': 'off',
         // require a capital letter for constructors
-        'new-cap': ['error', {
+        'new-cap': ['warn', {
             newIsCap: true,
             newIsCapExceptions: [],
             capIsNew: false,
@@ -210,7 +216,10 @@ module.exports = {
         // https://eslint.org/docs/rules/no-multi-assign
         'no-multi-assign': 'error',
         // disallow multiple empty lines
-        'no-multiple-empty-lines': ['error', { max: 2, maxEOF: 1 }],
+        'no-multiple-empty-lines': ['error', {
+            max: 2,
+            maxEOF: 1,
+        }],
         // disallow negated conditions
         // https://eslint.org/docs/rules/no-negated-condition
         'no-negated-condition': 'off',
@@ -280,16 +289,24 @@ module.exports = {
         // enforce placing object properties on separate lines or all on same line
         // https://eslint.org/docs/rules/object-curly-newline
         'object-curly-newline': ['error', {
-            ObjectExpression: { minProperties: 4, multiline: true, consistent: true },
-            ObjectPattern: { minProperties: 4, multiline: true, consistent: true },
+            ObjectExpression: {
+                minProperties: 2,
+                multiline: true,
+                consistent: true,
+            },
+            ObjectPattern: {
+                minProperties: 2,
+                multiline: true,
+                consistent: true,
+            },
         }],
         // enforce "same line" or "multiple line" on object properties.
         // https://eslint.org/docs/rules/object-property-newline
         'object-property-newline': ['error', {
             allowAllPropertiesOnSameLine: true,
         }],
-        // allow just one var statement per functionprefer-destructuring
-        'one-var': ['error', 'never'],
+        // allow just one var statement per function
+        'one-var': 'off',
         // require or disallow an newline around variable declarations
         'one-var-declaration-per-line': ['error', 'always'],
         // require assignment operator shorthand where possible or prohibit it entirely
@@ -326,7 +343,10 @@ module.exports = {
         // require or disallow use of semicolons instead of ASI
         semi: ['error', 'always'],
         // enforce spacing before and after semicolons
-        'semi-spacing': ['error', { before: false, after: true }],
+        'semi-spacing': ['error', {
+            before: false,
+            after: true,
+        }],
         // Enforce location of semicolons
         // https://eslint.org/docs/rules/semi-style
         'semi-style': ['error', 'last'],
@@ -361,7 +381,10 @@ module.exports = {
         'spaced-comment': ['error', 'always'],
         // Enforce spacing around colons of switch statements
         // https://eslint.org/docs/rules/switch-colon-spacing
-        'switch-colon-spacing': ['error', { after: true, before: false }],
+        'switch-colon-spacing': ['error', {
+            after: true,
+            before: false,
+        }],
         // Require or disallow spacing between template tags and their literals
         // https://eslint.org/docs/rules/template-tag-spacing
         'template-tag-spacing': ['error', 'never'],

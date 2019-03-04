@@ -90,6 +90,8 @@ module.exports = {
         'no-restricted-syntax': 'off',
         // disallow space between function identifier and application
         'no-spaced-func': 'off',
+        // disallow tab characters entirely
+        'no-tabs': 'error',
         // disallow the use of ternary operators
         'no-ternary': 'off',
         // disallow trailing whitespace at the end of lines
@@ -104,6 +106,8 @@ module.exports = {
         'nonblock-statement-body-position': 'off',
         // require or disallow padding inside curly braces
         'object-curly-spacing': 'off',
+        // https://eslint.org/docs/rules/object-curly-newline
+        'object-curly-newline': 'off',
         // enforce placing object properties on separate lines
         'object-property-newline': 'off',
         // allow just one var statement per function

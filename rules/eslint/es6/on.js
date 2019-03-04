@@ -11,12 +11,18 @@ module.exports = {
         'arrow-parens': ['error', 'always'],
         // require space before/after arrow function's arrow
         // https://eslint.org/docs/rules/arrow-spacing
-        'arrow-spacing': ['error', { before: true, after: true }],
+        'arrow-spacing': ['error', {
+            before: true,
+            after: true,
+        }],
         // verify super() callings in constructors
         'constructor-super': 'error',
         // enforce no space before * and space after * in generator functions
         // https://eslint.org/docs/rules/generator-star-spacing
-        'generator-star-spacing': ['warn', { before: false, after: true }],
+        'generator-star-spacing': ['warn', {
+            before: false,
+            after: true,
+        }],
         // disallow modifying variables of class declarations
         'no-class-assign': 'error',
         // disallow arrow functions where they could be confused with comparisons
@@ -66,14 +72,8 @@ module.exports = {
         // Prefer destructuring from arrays and objects
         // https://eslint.org/docs/rules/prefer-destructuring
         'prefer-destructuring': ['error', {
-            VariableDeclarator: {
-                array: false,
-                object: true,
-            },
-            AssignmentExpression: {
-                array: true,
-                object: true,
-            },
+            object: true,
+            array: false,
         }, {
             enforceForRenamedProperties: false,
         }],
