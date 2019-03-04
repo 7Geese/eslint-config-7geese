@@ -205,5 +205,8 @@ module.exports = {
         // Prevents catch clauses which just throw the original error
         // https://eslint.org/docs/rules/no-useless-catch
         'no-useless-catch': 'error',
+        //  Encourage use of named capture groups in regular expressions
+        //  https://eslint.org/docs/rules/prefer-named-capture-group
+        'prefer-named-capture-group': 'warn',
     },
 };

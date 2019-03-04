@@ -145,5 +145,7 @@ module.exports = {
         yoda: 'off',
         // Prevents catch clauses which just throw the original error
         'no-useless-catch': 'off',
+        //  Encourage use of named capture groups in regular expressions
+        'prefer-named-capture-group': 'off',
     },
 };
