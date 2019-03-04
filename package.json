@@ -29,8 +29,10 @@
     "np": "4.0.2"
   },
   "peerDependencies": {
+    "eslint": "^5.15.0"
+  },
+  "optionalDependencies": {
     "babel-eslint": "^10.0.1",
-    "eslint": "^5.15.0",
     "eslint-plugin-7g": "^3.0.0",
     "eslint-plugin-compat": "^2.7.0",
     "eslint-plugin-filenames": "^1.3.2",
