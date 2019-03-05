@@ -96,7 +96,7 @@ module.exports = {
             CallExpression: {
                 arguments: 1,
             },
-            MemberExpression: 0,
+            MemberExpression: 1,
             ArrayExpression: 1,
             ObjectExpression: 1,
             ImportDeclaration: 1,
