@@ -15,7 +15,7 @@ module.exports = {
         // Prevent usage of dangerous JSX properties
         'react/no-danger': 'warn',
         // Prevent usage of deprecated methods
-        'react/no-deprecated': 'error',
+        'react/no-deprecated': 'warn',
         // Prevent usage of setState in componentDidMount
         'react/no-did-mount-set-state': 'error',
         // Prevent usage of setState in componentDidUpdate
@@ -61,6 +61,9 @@ module.exports = {
         // Enforce propTypes declarations alphabetical sorting
         'react/sort-prop-types': ['error', {
             callbacksLast: true,
+            ignoreCase: true,
+            noSortAlphabetically: false,
+            requiredFirst: false,
             sortShapeProp: true,
         }],
 
@@ -94,8 +97,8 @@ module.exports = {
         'react/jsx-key': 'error',
         // Limit maximum of props on a single line in JSX
         'react/jsx-max-props-per-line': ['error', {
-            'maximum': 1,
-            'when': 'multiline',
+            'maximum': 2,
+            'when': 'always',
         }],
         // Prevent usage of .bind() and arrow functions in JSX props
         'react/jsx-no-bind': ['error', {
@@ -186,7 +189,7 @@ module.exports = {
         //  https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/default-props-match-prop-types.md
         'react/default-props-match-prop-types': 'error',
         //  https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/destructuring-assignment.md
-        'react/destructuring-assignment': 'error',
+        'react/destructuring-assignment': 'off',
         //  https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/forbid-component-props.md
         'react/forbid-component-props': 'off',
         //  https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/forbid-dom-props.md

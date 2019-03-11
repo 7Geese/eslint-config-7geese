@@ -2,7 +2,7 @@ module.exports = {
     plugins: ['promise'],
     rules: {
         //  https://github.com/xjamundx/eslint-plugin-promise/blob/master/docs/rules/always-return.md
-        'promise/always-return': 'error',
+        'promise/always-return': 'off',
         //  https://github.com/xjamundx/eslint-plugin-promise/blob/master/docs/rules/no-return-wrap.md
         'promise/no-return-wrap': 'error',
         //  https://github.com/xjamundx/eslint-plugin-promise/blob/master/docs/rules/param-names.md
@@ -29,5 +29,5 @@ module.exports = {
         'promise/prefer-await-to-then': 'off',
         //  https://github.com/xjamundx/eslint-plugin-promise/blob/master/docs/rules/prefer-await-to-callbacks.md
         'promise/prefer-await-to-callbacks': 'off',
-    }
+    },
 };
