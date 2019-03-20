@@ -159,11 +159,6 @@ module.exports = {
         // specify the max number of lines in a file
         // https://eslint.org/docs/rules/max-lines
         'max-lines': 'off',
-        // 'max-lines': ['warn', {
-        //     max: 500,
-        //     skipBlankLines: true,
-        //     skipComments: true,
-        // }],
         // specify the maximum depth callbacks can be nested
         'max-nested-callbacks': 'off',
         // limits the number of parameters that can be used in the function declaration.
