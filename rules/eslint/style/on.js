@@ -262,7 +262,11 @@ module.exports = {
         }],
         // disallow dangling underscores in identifiers
         'no-underscore-dangle': ['error', {
-            allow: [],
+            allow: [
+                "__REDUX_DEVTOOLS_EXTENSION_COMPOSE__",
+                "_isAMomentObject",
+                "__typename",
+            ],
             allowAfterThis: true,
             allowAfterSuper: true,
             enforceInMethodNames: false,
