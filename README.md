@@ -1,6 +1,6 @@
 <div align="center">
   <a href="https://eslint.org/">
-    <img width="150" height="150" src="https://eslint.org/img/logo.svg">
+    <img width="150" height="150" src="https://eslint.org/assets/img/logo.svg">
   </a>
   <a href="https://7geese.com">
     <img width="150" height="150" vspace="" hspace="25" src="https://user-images.githubusercontent.com/4298089/29260121-a9256298-807c-11e7-95c2-74d5c9841874.png">
