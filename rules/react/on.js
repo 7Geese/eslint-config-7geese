@@ -6,6 +6,7 @@ module.exports = {
     },
     plugins: ['react'],
     rules: {
+        'react/boolean-prop-naming': ['error', { 'rule': '^(is|has|can)[A-Z]([A-Za-z0-9]?)+' }],
         // Prevent missing displayName in a React component definition
         'react/display-name': ['error', {
             'ignoreTranspilerName': false,
