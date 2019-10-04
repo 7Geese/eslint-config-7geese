@@ -768,10 +768,10 @@ eslint-module-utils@^2.4.0:
     debug "^2.6.8"
     pkg-dir "^2.0.0"
 
-eslint-plugin-7g@3.4.0:
-  version "3.4.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-7g/-/eslint-plugin-7g-3.4.0.tgz#c68b312baa3c63eb13581933379104be7a2e01fb"
-  integrity sha512-PnYMBn+YTumz6NiHy13GEibM2F6Z7CMmOwYx9qO9M5Rc3xEnwVCjBAXj3/dDF7o5IwDd8R1Ul/jg3VRj1u1tGQ==
+eslint-plugin-7g@3.5.0:
+  version "3.5.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-7g/-/eslint-plugin-7g-3.5.0.tgz#f43cc63ec5777e41ec2efb56ef845048f67d8639"
+  integrity sha512-ioasl8B0ucxzCWsA18fzoe5o/FoEDuAZk68nqV7GDjk7DEUe2FyQGlUkh2TfMVyb0v+8ntjmvMNUd0+2HUUdDw==
   dependencies:
     jsx-ast-utils "2.0.1"
 
