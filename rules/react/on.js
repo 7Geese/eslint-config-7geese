@@ -6,10 +6,6 @@ module.exports = {
     },
     plugins: ['react'],
     rules: {
-        // Prevent missing displayName in a React component definition
-        'react/display-name': ['error', {
-            'ignoreTranspilerName': false,
-        }],
         // Forbid certain propTypes
         'react/forbid-prop-types': 'warn',
         // Prevent usage of dangerous JSX properties
