@@ -65,7 +65,7 @@ module.exports = {
         'jest/no-alias-methods': 'error',
         //  .toThrow should have an argument/message
         //  https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/require-tothrow-message.md
-        'jest/require-tothrow-message': 'error',
+        'jest/require-to-throw-message': 'error',
         //  Use .toContain when checking Array.includes
         //  https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/prefer-to-contain.md
         'jest/prefer-to-contain': 'error',
@@ -86,5 +86,33 @@ module.exports = {
         //  Disallow empty titles
         //  https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/no-empty-title.md
         'jest/no-empty-title': 'error',
+        // Disallow duplicate hooks
+        // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/no-duplicate-hooks.md
+        'jest/no-duplicate-hooks': 'error',
+        // Disallow no if statements in tests
+        // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/no-if.md
+        'jest/no-if': 'error',
+        // Disallow no exports in test files
+        // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/no-export.md
+        'jest/no-export': 'error',
+        // Warn using assertions in a catch block is suspect. Use expect().toThrow instead
+        // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/no-try-expect.md
+        'jest/no-try-expect': 'warn',
+        // Don't allow expects outside of a specific testcase
+        // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/no-standalone-expect.md
+        'jest/no-standalone-expect': 'error',
+        // warn if using a funky syntax for expecting before await
+        // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/no-expect-resolves.md
+        'jest/no-expect-resolves': 'warn',
+        // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/require-top-level-describe.md
+        'jest/require-top-level-describe': 'error',
+        // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/no-commented-out-tests.md
+        'jest/no-commented-out-tests': 'error',
+        // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/valid-title.md
+        'jest/valid-title': 'error',
+        // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/prefer-hooks-on-top.md
+        'jest/prefer-hooks-on-top': 'warn',
+        // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/no-mocks-import.md
+        'jest/no-mocks-import': 'off',
     },
 };

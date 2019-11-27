@@ -55,6 +55,8 @@ module.exports = {
         'consistent-this': 'off',
         // enforce newline at the end of file, with no multiple empty lines
         'eol-last': ['error', 'always'],
+        // https://eslint.org/docs/rules/func-call-argument
+        'function-call-argument-newline': ['error', 'consistent'],
         // enforce spacing between functions and their invocations
         // https://eslint.org/docs/rules/func-call-spacing
         'func-call-spacing': ['error', 'never'],
@@ -392,5 +394,9 @@ module.exports = {
         'unicode-bom': ['error', 'never'],
         // require regex literals to be wrapped in parentheses
         'wrap-regex': 'off',
+        // https://eslint.org/docs/rules/grouped-accessor-pairs
+        'grouped-accessor-pairs': ['error', 'anyOrder'],
+        // https://eslint.org/docs/rules/prefer-regex-literals
+        'prefer-regex-literals': 'off',
     },
 };

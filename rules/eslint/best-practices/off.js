@@ -14,6 +14,8 @@ module.exports = {
         curly: 'off',
         // require default case in switch statements
         'default-case': 'off',
+        // https://eslint.org/docs/rules/default-param-last
+        'default-param-last': 'off',
         // enforces consistent newlines before or after dots
         'dot-location': 'off',
         // encourages use of dot notation whenever possible

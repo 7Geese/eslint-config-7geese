@@ -161,5 +161,15 @@ module.export = {
         'react/jsx-closing-tag-location': 'off',
         //  https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-fragments.md
         'react/jsx-fragments': 'off',
+        //  https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/state-in-constructor.md
+        'react/state-in-constructor': 'off',
+        //  https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-no-useless-fragment.md
+        'react/jsx-no-useless-fragment': 'off',
+        //  https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-curly-newline.md
+        'react/jsx-curly-newline': 'off',
+        //  https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/prefer-read-only-props.md
+        'react/prefer-read-only-props': 'off',
+        //  https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/display-name.md
+        'react/display-name': 'off',
     },
 };

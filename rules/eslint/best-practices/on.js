@@ -19,6 +19,9 @@ module.exports = {
         curly: ['error', 'multi-line'],
         // require default case in switch statements
         'default-case': ['error', { commentPattern: '^no default$' }],
+        // enforce named params (params with a default value) are declared last in function signature
+        // https://eslint.org/docs/rules/default-param-last
+        'default-param-last': 'error',
         // enforces consistent newlines before or after dots
         // http://eslint.org/docs/rules/dot-location
         'dot-location': ['error', 'property'],
