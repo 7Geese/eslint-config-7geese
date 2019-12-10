@@ -18,6 +18,8 @@ module.exports = {
         'consistent-this': 'off',
         // enforce newline at the end of file, with no multiple empty lines
         'eol-last': 'off',
+        // what style to enforce on multiple arguments to functions
+        'function-call-argument-newline': 'off',
         // require function expressions to have a name
         'func-names': 'off',
         // enforces use of function declarations or expressions
@@ -150,5 +152,9 @@ module.exports = {
         'spaced-comment': 'off',
         // require regex literals to be wrapped in parentheses
         'wrap-regex': 'off',
+        // https://eslint.org/docs/rules/grouped-accessor-pairs
+        'grouped-accessor-pairs': 'off',
+        // https://eslint.org/docs/rules/prefer-regex-literals
+        'prefer-regex-literals': 'off',
     },
 };

@@ -77,7 +77,7 @@ module.exports = {
         }, {
             enforceForRenamedProperties: false,
         }],
-        // https://eslint.org/docs/4.0.0/rules/prefer-promise-reject-errors
+        // https://eslint.org/docs/rules/prefer-promise-reject-errors
         'prefer-promise-reject-errors': 'off',
         // suggest using Reflect methods where applicable
         // https://eslint.org/docs/rules/prefer-reflect
@@ -116,5 +116,8 @@ module.exports = {
         // enforce spacing around the * in yield* expressions
         // https://eslint.org/docs/rules/yield-star-spacing
         'yield-star-spacing': ['error', 'after'],
+        // use ** instead of Math.Pow
+        // https://eslint.org/docs/rules/prefer-exponentiation-operator
+        'prefer-exponentiation-operator': 'warn',
     },
 };

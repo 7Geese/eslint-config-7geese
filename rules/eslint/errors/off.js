@@ -60,5 +60,13 @@ module.exports = {
         'valid-jsdoc': 'off',
         // ensure that the results of typeof are compared against a valid string
         'valid-typeof': 'off',
+        // https://eslint.org/docs/rules/no-constructor-return
+        'no-constructor-return': 'off',
+        // https://eslint.org/docs/rules/no-dupe-else-if
+        'no-dupe-else-if': 'off',
+        // https://eslint.org/docs/rules/no-import-assign
+        'no-import-assign': 'off',
+        // https://eslint.org/docs/rules/no-setter-return
+        'no-setter-return': 'off',
     },
 };

@@ -58,5 +58,8 @@ module.exports = {
         'template-curly-spacing': 'off',
         // enforce spacing around the * in yield* expressions
         'yield-star-spacing': 'off',
+        // use ** instead of Math.Pow
+        // https://eslint.org/docs/rules/prefer-exponentiation-operator
+        'prefer-exponentiation-operator': 'off',
     },
 };
