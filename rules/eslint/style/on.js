@@ -397,6 +397,6 @@ module.exports = {
         // https://eslint.org/docs/rules/grouped-accessor-pairs
         'grouped-accessor-pairs': ['error', 'anyOrder'],
         // https://eslint.org/docs/rules/prefer-regex-literals
-        'prefer-regex-literals': 'off',
+        'prefer-regex-literals': 'error',
     },
 };

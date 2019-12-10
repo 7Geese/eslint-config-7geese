@@ -103,7 +103,7 @@ module.exports = {
         'jest/no-standalone-expect': 'error',
         // warn if using a funky syntax for expecting before await
         // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/no-expect-resolves.md
-        'jest/no-expect-resolves': 'warn',
+        'jest/no-expect-resolves': 'error',
         // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/require-top-level-describe.md
         'jest/require-top-level-describe': 'error',
         // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/no-commented-out-tests.md
@@ -111,8 +111,8 @@ module.exports = {
         // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/valid-title.md
         'jest/valid-title': 'error',
         // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/prefer-hooks-on-top.md
-        'jest/prefer-hooks-on-top': 'warn',
+        'jest/prefer-hooks-on-top': 'error',
         // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/no-mocks-import.md
-        'jest/no-mocks-import': 'off',
+        'jest/no-mocks-import': 'error',
     },
 };
