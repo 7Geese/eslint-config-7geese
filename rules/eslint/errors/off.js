@@ -67,6 +67,6 @@ module.exports = {
         // https://eslint.org/docs/rules/no-import-assign
         'no-import-assign': 'off',
         // https://eslint.org/docs/rules/no-setter-return
-        'no-setter-return': 'off'
+        'no-setter-return': 'off',
     },
 };
