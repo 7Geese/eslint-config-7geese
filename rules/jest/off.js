@@ -77,9 +77,6 @@ module.exports = {
         'jest/prefer-todo': 'off',
         //  https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/prefer-called-with.md
         'jest/prefer-called-with': 'off',
-        //  Disallow empty titles
-        //  https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/no-empty-title.md
-        'jest/no-empty-title': 'off',
         // Disallow duplicate hooks
         // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/no-duplicate-hooks.md
         'jest/no-duplicate-hooks': 'off',
