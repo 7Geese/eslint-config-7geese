@@ -15,7 +15,7 @@ module.exports = {
         'jest/no-disabled-tests': 'error',
         //  Error out if set to only run a single test
         //  https://github.com/jest-community/eslint-plugin-jest/blob/HEAD/docs/rules/no-focused-tests.md
-        'jest/no-focused-tests': 'off',
+        'jest/no-focused-tests': 'error',
         //  https://github.com/jest-community/eslint-plugin-jest/blob/HEAD/docs/rules/no-hooks.md
         'jest/no-hooks': 'off',
         //  https://github.com/jest-community/eslint-plugin-jest/blob/HEAD/docs/rules/no-identical-title.md
