@@ -149,5 +149,12 @@ module.exports = {
         'no-useless-catch': 'off',
         //  Encourage use of named capture groups in regular expressions
         'prefer-named-capture-group': 'off',
+        'no-restricted-exports': "off",
+        'default-case-last': "off",
+        'id-denylist': "off",
+        'no-promise-executor-return': 'off',
+        'no-unreachable-loop': 'off',
+        'no-useless-backreference': 'off',
+        'no-loss-of-precision': 'off',
     },
 };

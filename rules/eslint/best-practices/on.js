@@ -17,7 +17,11 @@ module.exports = {
         'consistent-return': 'off',
         // specify curly brace conventions for multi-line control statements
         curly: ['error', 'multi-line'],
-        // require default case in switch statements
+        // https://github.com/eslint/eslint/blob/master/docs/rules/default-case-last.md
+        // Enforce default cases must be the last case in a switch statement
+        'default-case-last': 'error',
+        // Enforce switch statements must have a default case
+        // https://github.com/eslint/eslint/blob/master/docs/rules/default-case.md
         'default-case': ['error', { commentPattern: '^no default$' }],
         // enforce named params (params with a default value) are declared last in function signature
         // https://eslint.org/docs/rules/default-param-last
@@ -31,6 +35,9 @@ module.exports = {
         eqeqeq: ['error', 'always', { null: 'ignore' }],
         // make sure for-in loops have an if statement
         'guard-for-in': 'error',
+        // Disallow certain common words from being used
+        // https://github.com/eslint/eslint/blob/master/docs/rules/id-denylist.md
+        'id-denylist': 'off',
         // disallow the use of alert, confirm, and prompt
         'no-alert': 'error',
         // disallow use of arguments.caller or arguments.callee
@@ -94,6 +101,8 @@ module.exports = {
         'no-lone-blocks': 'error',
         // disallow creation of functions within loops
         'no-loop-func': 'error',
+        // https://github.com/eslint/eslint/blob/master/docs/rules/no-loss-of-precision.md
+        'no-loss-of-precision': 'error',
         // disallow magic numbers
         // http://eslint.org/docs/rules/no-magic-numbers
         'no-magic-numbers': 'off',
@@ -121,6 +130,10 @@ module.exports = {
                 'acc', // for reduce accumulators
             ],
         }],
+        // https://github.com/eslint/eslint/blob/master/docs/rules/no-promise-executor-return.md
+        'no-promise-executor-return': 'error',
+        // https://github.com/eslint/eslint/blob/master/docs/rules/no-restricted-exports.md
+        'no-restricted-exports': "off",
         //  https://eslint.org/docs/4.0.0/rules/no-useless-return
         'no-useless-return': 'error',
         // disallow usage of __proto__ property
@@ -156,6 +169,8 @@ module.exports = {
         // disallow unmodified conditions of loops
         // http://eslint.org/docs/rules/no-unmodified-loop-condition
         'no-unmodified-loop-condition': 'off',
+        // https://github.com/eslint/eslint/blob/master/docs/rules/no-unreachable-loop.md
+        'no-unreachable-loop': 'error',
         // disallow usage of expressions in statement position
         'no-unused-expressions': ['error', {
             allowShortCircuit: false,
@@ -165,6 +180,8 @@ module.exports = {
         // disallow unused labels
         // http://eslint.org/docs/rules/no-unused-labels
         'no-unused-labels': 'error',
+        // https://github.com/eslint/eslint/blob/master/docs/rules/no-useless-backreference.md
+        'no-useless-backreference' : 'error',
         // disallow unnecessary .call() and .apply()
         'no-useless-call': 'warn',
         // disallow unnecessary concatenation of literals or template literals

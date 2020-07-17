@@ -151,8 +151,6 @@ module.export = {
         'react/forbid-component-props': 'off',
         //  https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/forbid-dom-props.md
         'react/forbid-dom-props': 'off',
-        //  https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/forbid-elements.md
-        'react/forbid-dom-props': 'off',
         //  https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/forbid-foreign-prop-types.md
         'react/forbid-foreign-prop-types': 'off',
         //  https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-child-element-spacing.md
@@ -169,7 +167,11 @@ module.export = {
         'react/jsx-curly-newline': 'off',
         //  https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/prefer-read-only-props.md
         'react/prefer-read-only-props': 'off',
-        //  https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/display-name.md
-        'react/display-name': 'off',
+        // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/function-component-definition.md
+        'react/function-component-definition': 'off',
+        // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-no-script-url.md
+        'react/jsx-no-script-url': 'off',
+        // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-adjacent-inline-elements.md
+        'react/no-adjacent-inline-elements': 'off',
     },
 };

@@ -111,5 +111,11 @@ module.exports = {
         'jest/prefer-hooks-on-top': 'error',
         // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/no-mocks-import.md
         'jest/no-mocks-import': 'error',
+        // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/no-conditional-expect.md
+        'jest/no-conditional-expect': 'error',
+        // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/no-deprecated-functions.md
+        'jest/no-deprecated-functions': 'error',
+        // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/no-restricted-matchers.md
+        'jest/no-restricted-matchers': 'off',
     },
 };
