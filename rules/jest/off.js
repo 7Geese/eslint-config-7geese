@@ -111,5 +111,7 @@ module.exports = {
         'jest/no-deprecated-functions': 'off',
         // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/no-restricted-matchers.md
         'jest/no-restricted-matchers': 'off',
+        // https://github.com/jest-community/eslint-plugin-jest/blob/master/docs/rules/no-interpolation-in-snapshots.md
+        'jest/no-interpolation-in-snapshots': 'off',
     },
 };
