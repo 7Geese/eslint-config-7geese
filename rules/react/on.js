@@ -212,5 +212,11 @@ module.exports = {
         'react/prefer-read-only-props': 'error',
         //  https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/prefer-read-only-props.md
         'react/display-name': 'off',
+        // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/function-component-definition.md
+        'react/function-component-definition': 'off',
+        // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-no-script-url.md
+        'react/jsx-no-script-url': 'error',
+        // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-adjacent-inline-elements.md
+        'react/no-adjacent-inline-elements': 'warn',
     },
 };
