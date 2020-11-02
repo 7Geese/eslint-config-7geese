@@ -29,7 +29,7 @@
     "np": "7.0.0"
   },
   "peerDependencies": {
-    "eslint": "7.5.0"
+    "eslint": "7.12.1"
   },
   "repository": {
     "type": "git",
