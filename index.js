@@ -18,7 +18,7 @@ module.exports = {
         './rules/react/on.js',
         './rules/react-hooks/on.js',
     ].map(require.resolve),
-    parser: 'babel-eslint',
+    parser: '@babel/eslint-parser',
     parserOptions: {
         ecmaVersion: 2018,
         sourceType: 'module',
