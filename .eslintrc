@@ -1,12 +1,6 @@
 {
     "extends": [
-        "./rules/eslint/best-practices/on.js",
-        "./rules/eslint/errors/on.js",
-        "./rules/eslint/es6/off.js",
-        "./rules/eslint/strict/off.js",
-        "./rules/eslint/style/on.js",
-        "./rules/eslint/variables/on.js",
-        "./rules/eslint/node/on.js"
+        "./rules/eslint.js"
     ],
     "parserOptions": {
         "ecmaVersion": 5,
