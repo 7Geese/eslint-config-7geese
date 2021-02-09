@@ -11,6 +11,7 @@ module.exports = {
         './rules/promise.js',
         './rules/react.js',
         './rules/react-hooks.js',
+        './rules/testing-library.js',
     ].map(require.resolve),
     parser: '@babel/eslint-parser',
     parserOptions: {
