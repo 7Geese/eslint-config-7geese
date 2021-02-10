@@ -2,7 +2,7 @@ module.exports = {
     plugins: ['jest-dom'],
     rules: {
         // https://github.com/testing-library/eslint-plugin-jest-dom/blob/master/docs/rules/prefer-checked.md
-        'jest-dom/prefer-checked': 'off',
+        'jest-dom/prefer-checked': 'warn',
         // https://github.com/testing-library/eslint-plugin-jest-dom/blob/master/docs/rules/prefer-empty.md
         'jest-dom/prefer-empty': 'error',
         // https://github.com/testing-library/eslint-plugin-jest-dom/blob/master/docs/rules/prefer-enabled-disabled.md
