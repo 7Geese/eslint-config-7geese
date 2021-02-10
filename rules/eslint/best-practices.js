@@ -181,7 +181,7 @@ module.exports = {
         // http://eslint.org/docs/rules/no-unused-labels
         'no-unused-labels': 'error',
         // https://github.com/eslint/eslint/blob/master/docs/rules/no-useless-backreference.md
-        'no-useless-backreference' : 'error',
+        'no-useless-backreference': 'error',
         // disallow unnecessary .call() and .apply()
         'no-useless-call': 'warn',
         // disallow unnecessary concatenation of literals or template literals
@@ -228,5 +228,9 @@ module.exports = {
         //  Encourage use of named capture groups in regular expressions
         //  https://eslint.org/docs/rules/prefer-named-capture-group
         'prefer-named-capture-group': 'warn',
+        // https://eslint.org/docs/rules/no-nonoctal-decimal-escape
+        'no-nonoctal-decimal-escape': 'error',
+        // https://eslint.org/docs/rules/no-unsafe-optional-chaining
+        'no-unsafe-optional-chaining': 'error',
     },
 };

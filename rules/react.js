@@ -218,5 +218,9 @@ module.exports = {
         'react/jsx-no-script-url': 'error',
         // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-adjacent-inline-elements.md
         'react/no-adjacent-inline-elements': 'warn',
+        // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-newline.md
+        'react/jsx-newline': 'error',
+        // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-no-constructed-context-values.md
+        'react/jsx-no-constructed-context-values': 'error',
     },
 };
